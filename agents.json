@@ -78,10 +78,10 @@
     "repo_name": "krflorian/walter_hackathon_2023",
     "installation_id": 33095989,
     "is_fleet": true,
-    "build_count": 16,
+    "build_count": 17,
     "created_at": "2023-01-13T09:52:46+01:00",
     "updated_at": "2023-01-13T09:15:06.691367337Z",
-    "last_build_triggered_at": "2023-01-13T12:55:45.855714456Z",
+    "last_build_triggered_at": "2023-01-13T13:05:41.959987853Z",
     "status": "Onboarded"
   },
   {
