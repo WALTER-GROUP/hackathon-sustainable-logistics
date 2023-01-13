@@ -1,0 +1,320 @@
+{
+  "truck": {
+    "balance": 30289.0,
+    "uid": 1,
+    "loc": "Berlin",
+    "hours_since_full_rest": 241.0,
+    "time": 241.98913606435707
+  },
+  "offers": [
+    {
+      "uid": 89,
+      "origin": "Marseille",
+      "dest": "Miskolc",
+      "name": "Food",
+      "price": 1711.0,
+      "eta_to_cargo": 14.08,
+      "km_to_cargo": 1283.0,
+      "km_to_deliver": 3182.0,
+      "eta_to_deliver": 36.84
+    },
+    {
+      "uid": 119,
+      "origin": "Bruges",
+      "dest": "Valencia",
+      "name": "Fuel Cells",
+      "price": 1735.0,
+      "eta_to_cargo": 7.48,
+      "km_to_cargo": 830.0,
+      "km_to_deliver": 2751.0,
+      "eta_to_deliver": 28.61
+    },
+    {
+      "uid": 62,
+      "origin": "Bologna",
+      "dest": "Cluj-Napoca",
+      "name": "Grain",
+      "price": 1593.0,
+      "eta_to_cargo": 10.98,
+      "km_to_cargo": 1051.0,
+      "km_to_deliver": 2795.0,
+      "eta_to_deliver": 31.12
+    },
+    {
+      "uid": 104,
+      "origin": "Barcelona",
+      "dest": "Panevezys",
+      "name": "Food",
+      "price": 2257.0,
+      "eta_to_cargo": 14.73,
+      "km_to_cargo": 1576.0,
+      "km_to_deliver": 4143.0,
+      "eta_to_deliver": 40.66
+    },
+    {
+      "uid": 61,
+      "origin": "Marseille",
+      "dest": "Linz",
+      "name": "Food",
+      "price": 972.0,
+      "eta_to_cargo": 14.08,
+      "km_to_cargo": 1283.0,
+      "km_to_deliver": 2285.0,
+      "eta_to_deliver": 25.89
+    },
+    {
+      "uid": 58,
+      "origin": "Murcia",
+      "dest": "Hamburg",
+      "name": "Biofuel",
+      "price": 2228.0,
+      "eta_to_cargo": 28.71,
+      "km_to_cargo": 2754.0,
+      "km_to_deliver": 5255.0,
+      "eta_to_deliver": 53.8
+    },
+    {
+      "uid": 115,
+      "origin": "Salzburg",
+      "dest": "Copenhagen",
+      "name": "Biofuel",
+      "price": 935.0,
+      "eta_to_cargo": 6.5,
+      "km_to_cargo": 618.0,
+      "km_to_deliver": 1591.0,
+      "eta_to_deliver": 15.36
+    },
+    {
+      "uid": 85,
+      "origin": "Siauliai",
+      "dest": "Valencia",
+      "name": "Fuel Cells",
+      "price": 3099.0,
+      "eta_to_cargo": 11.72,
+      "km_to_cargo": 922.0,
+      "km_to_deliver": 4421.0,
+      "eta_to_deliver": 51.339999999999996
+    },
+    {
+      "uid": 76,
+      "origin": "Florence",
+      "dest": "Paris",
+      "name": "Fuel Cells",
+      "price": 1253.0,
+      "eta_to_cargo": 11.88,
+      "km_to_cargo": 1131.0,
+      "km_to_deliver": 2444.0,
+      "eta_to_deliver": 25.93
+    },
+    {
+      "uid": 10,
+      "origin": "Budapest",
+      "dest": "Vilnius",
+      "name": "Food",
+      "price": 1402.0,
+      "eta_to_cargo": 7.49,
+      "km_to_cargo": 737.0,
+      "km_to_deliver": 2244.0,
+      "eta_to_deliver": 24.14
+    },
+    {
+      "uid": 114,
+      "origin": "Madrid",
+      "dest": "Cologne",
+      "name": "Food",
+      "price": 1369.0,
+      "eta_to_cargo": 18.92,
+      "km_to_cargo": 2057.0,
+      "km_to_deliver": 3555.0,
+      "eta_to_deliver": 32.25
+    },
+    {
+      "uid": 106,
+      "origin": "Barcelona",
+      "dest": "Hamburg",
+      "name": "Food",
+      "price": 1441.0,
+      "eta_to_cargo": 14.73,
+      "km_to_cargo": 1576.0,
+      "km_to_deliver": 3158.0,
+      "eta_to_deliver": 28.79
+    },
+    {
+      "uid": 42,
+      "origin": "Bologna",
+      "dest": "Zaragoza",
+      "name": "Grain",
+      "price": 1565.0,
+      "eta_to_cargo": 10.98,
+      "km_to_cargo": 1051.0,
+      "km_to_deliver": 2756.0,
+      "eta_to_deliver": 28.32
+    },
+    {
+      "uid": 14,
+      "origin": "Bucharest",
+      "dest": "Hamburg",
+      "name": "Biofuel",
+      "price": 1508.0,
+      "eta_to_cargo": 13.57,
+      "km_to_cargo": 1465.0,
+      "km_to_deliver": 3098.0,
+      "eta_to_deliver": 30.080000000000002
+    },
+    {
+      "uid": 107,
+      "origin": "Marseille",
+      "dest": "Lyon",
+      "name": "Food",
+      "price": 361.0,
+      "eta_to_cargo": 14.08,
+      "km_to_cargo": 1283.0,
+      "km_to_deliver": 1560.0,
+      "eta_to_deliver": 17.46
+    },
+    {
+      "uid": 112,
+      "origin": "Toulouse",
+      "dest": "Paris",
+      "name": "Biofuel",
+      "price": 1028.0,
+      "eta_to_cargo": 18.36,
+      "km_to_cargo": 1830.0,
+      "km_to_deliver": 2915.0,
+      "eta_to_deliver": 28.92
+    },
+    {
+      "uid": 20,
+      "origin": "Cluj-Napoca",
+      "dest": "Paris",
+      "name": "Fuel Cells",
+      "price": 2072.0,
+      "eta_to_cargo": 13.8,
+      "km_to_cargo": 1228.0,
+      "km_to_deliver": 3460.0,
+      "eta_to_deliver": 37.07
+    },
+    {
+      "uid": 100,
+      "origin": "Zaragoza",
+      "dest": "Innsbruck",
+      "name": "Fruits",
+      "price": 1774.0,
+      "eta_to_cargo": 22.48,
+      "km_to_cargo": 2331.0,
+      "km_to_deliver": 4281.0,
+      "eta_to_deliver": 42.08
+    },
+    {
+      "uid": 66,
+      "origin": "Bologna",
+      "dest": "Cluj-Napoca",
+      "name": "Grain",
+      "price": 1592.0,
+      "eta_to_cargo": 10.98,
+      "km_to_cargo": 1051.0,
+      "km_to_deliver": 2795.0,
+      "eta_to_deliver": 31.12
+    },
+    {
+      "uid": 103,
+      "origin": "Bologna",
+      "dest": "Maribor",
+      "name": "Grain",
+      "price": 952.0,
+      "eta_to_cargo": 10.98,
+      "km_to_cargo": 1051.0,
+      "km_to_deliver": 2041.0,
+      "eta_to_deliver": 22.92
+    },
+    {
+      "uid": 109,
+      "origin": "Lodz",
+      "dest": "Lyon",
+      "name": "Grain",
+      "price": 1856.0,
+      "eta_to_cargo": 5.8,
+      "km_to_cargo": 635.0,
+      "km_to_deliver": 2719.0,
+      "eta_to_deliver": 28.35
+    },
+    {
+      "uid": 82,
+      "origin": "Bologna",
+      "dest": "Montpellier",
+      "name": "Grain",
+      "price": 763.0,
+      "eta_to_cargo": 10.98,
+      "km_to_cargo": 1051.0,
+      "km_to_deliver": 1808.0,
+      "eta_to_deliver": 21.060000000000002
+    },
+    {
+      "uid": 93,
+      "origin": "Naples",
+      "dest": "Valencia",
+      "name": "Fuel Cells",
+      "price": 2169.0,
+      "eta_to_cargo": 13.01,
+      "km_to_cargo": 1388.0,
+      "km_to_deliver": 3797.0,
+      "eta_to_deliver": 37.94
+    },
+    {
+      "uid": 9,
+      "origin": "Zaragoza",
+      "dest": "Brussels",
+      "name": "Fuel Cells",
+      "price": 1514.0,
+      "eta_to_cargo": 22.48,
+      "km_to_cargo": 2331.0,
+      "km_to_deliver": 3919.0,
+      "eta_to_deliver": 37.81
+    },
+    {
+      "uid": 70,
+      "origin": "Murcia",
+      "dest": "Copenhagen",
+      "name": "Biofuel",
+      "price": 2464.0,
+      "eta_to_cargo": 28.71,
+      "km_to_cargo": 2754.0,
+      "km_to_deliver": 5543.0,
+      "eta_to_deliver": 56.260000000000005
+    },
+    {
+      "uid": 8,
+      "origin": "Plovdiv",
+      "dest": "Barcelona",
+      "name": "Biofuel",
+      "price": 2134.0,
+      "eta_to_cargo": 15.51,
+      "km_to_cargo": 1498.0,
+      "km_to_deliver": 3874.0,
+      "eta_to_deliver": 37.47
+    },
+    {
+      "uid": 118,
+      "origin": "Copenhagen",
+      "dest": "Paris",
+      "name": "Fuel Cells",
+      "price": 999.0,
+      "eta_to_cargo": 3.11,
+      "km_to_cargo": 355.0,
+      "km_to_deliver": 1394.0,
+      "eta_to_deliver": 12.229999999999999
+    },
+    {
+      "uid": 79,
+      "origin": "Zaragoza",
+      "dest": "Miskolc",
+      "name": "Fruits",
+      "price": 2660.0,
+      "eta_to_cargo": 22.48,
+      "km_to_cargo": 2331.0,
+      "km_to_deliver": 5303.0,
+      "eta_to_deliver": 54.59
+    }
+  ],
+  "is_fleet": true
+}

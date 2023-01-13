@@ -1,0 +1,257 @@
+openapi: 3.0.1
+info:
+  version: 1.0.0
+  title: "WALTER GROUP Hackathon: Sustainable Logistics"
+  description: API for the smart agents of the simulation
+paths:
+  /decide:
+    post:
+      description: 'Decide what to do next'
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/DecideRequest"
+      responses:
+        "200":
+          description: A successful response with the next step for the simulation
+          content:
+            application/json:
+              schema:
+                allOf:
+                  - $ref: "#/components/schemas/DecideResponse"
+
+servers:
+  - description: Locally running truck agent
+    url: https://localhost:8080
+components:
+  schemas:
+    DecideRequest:
+      properties:
+        truck:
+          $ref: "#/components/schemas/TruckState"
+        offers:
+          description: "List of currently available cargo offers to deliver"
+          type: array
+          items:
+            $ref: "#/components/schemas/CargoOffer"
+        is_fleet:
+          type: boolean
+          example: false
+
+    TruckState:
+      description: "All the information about the truck at this point in time"
+      type: object
+      properties:
+        uid:
+          description: "Truck ID, unique within the truck fleet of that team"
+          type: integer
+          minimum: 0
+          example: 0
+        loc:
+          description: "The current location name where the truck is located"
+          type: string
+          example: "Vienna"
+        balance:
+          description: "The bank account balance of the truck driver / the truck fleet"
+          type: number
+          format: long
+          example: 100.0
+        hours_since_full_rest:
+          description: "The amount of driving hours the truck driver is on the road"
+          type: number
+          format: long
+          example: 3.25
+        time:
+          description: "Current simulation time. 13.25 means 13:15"
+          type: number
+          format: long
+          minimum: 0.0
+          maximum: 24.0
+          example: 13.25
+
+    CargoOffer:
+      type: object
+      properties:
+        uid:
+          description: "Unique cargo ID"
+          type: integer
+          example: 0
+        origin:
+          description: "Location name where the cargo is currently located"
+          type: string
+          example: "Bratislava"
+        dest:
+          description: "Destination location name for the cargo delivery"
+          type: string
+          example: "Berlin"
+        name:
+          description: "The name / description of the cargo"
+          type: string
+          example: "Cogs"
+        price:
+          description: "How much you earn for delivering the cargo"
+          type: number
+          format: long
+          example: 100.1
+        eta_to_cargo:
+          description: "How long will it take the truck to get to the cargo origin location"
+          type: number
+          format: long
+        km_to_cargo:
+          description: "Distance between the truck and the cargo origin location"
+          type: number
+          format: long
+        eta_to_deliver:
+          description: "How long will it take the truck to deliver the cargo from the cargo origin location to its destination"
+          type: number
+          format: long
+        km_to_deliver:
+          description: "Distance between the cargo origin and the cargo destination location"
+          type: number
+          format: long
+
+    DecideResponse:
+      type: object
+      properties:
+        command:
+          type: string
+          enum: [DELIVER, ROUTE, SLEEP]
+          example: "DELIVER"
+      discriminator:
+        propertyName: command
+        mapping:
+          DELIVER: '#/components/schemas/DeliverResponse'
+          ROUTE: '#/components/schemas/RouteResponse'
+          SLEEP: '#/components/schemas/SleepResponse'
+      anyOf:
+        - $ref: '#/components/schemas/DeliverResponse'
+        - $ref: '#/components/schemas/RouteResponse'
+        - $ref: '#/components/schemas/SleepResponse'
+  
+    DeliverResponse:
+      description: |
+        Deliver a specific cargo. A lot of actions will happen automatically
+        - Reserve a cargo for delivery
+        - `ROUTE` to the cargo origin location
+        - Load the cargo onto the truck
+        - `ROUTE` to the cargo destination location
+        - `SLEEP` Possibly the driver will need to sleep during the drive or at the destination, if he arrives outside of the destination's business hours
+        - Unload the cargo at the destination
+      type: object
+      allOf:
+        - $ref: '#/components/schemas/DecideResponse'
+        - type: object
+          required:
+            - argument
+          properties:
+            argument:
+              description: "Unique cargo ID to deliver"
+              type: integer
+              example: "100"
+
+    RouteResponse:
+      description: "Drive the shortest route from the current truck location to a destination location"
+      type: object
+      allOf:
+        - $ref: '#/components/schemas/DecideResponse'
+        - type: object
+          required:
+            - argument
+          properties:
+            argument:
+              description: "The location name where the truck should drive to"
+              type: integer
+              example: "Rustport"
+
+    SleepResponse:
+      description: "Sleep for a certain amount of hours"
+      type: object
+      allOf:
+        - $ref: '#/components/schemas/DecideResponse'
+        - type: object
+          required:
+            - argument
+          properties:
+            argument:
+              description: "Number of hours to sleep"
+              type: integer
+              example: "1"
+              
+    WorldMap:
+      description: |
+        The world map can be downloaded by a truck agent from https://github.com/WALTER-GROUP/hackathon-sustainable-logistics/blob/main/data/map.json during a simulation run.
+        It is not required to download it, but a team might be able to get some useful  information from the map to optimize their truck agents decisions.
+        To make individual decide requests as fast as possible, do not download the map on each request,
+        otherwise the simulation might decide that the truck is reacting too slow and exclude it from the current simulation run.
+      type: array
+      items:
+        $ref: "#/components/schemas/Location"
+        
+    Location:
+      type: object
+      properties:
+        city:
+          description: "The unique name of the location. This property will be used in roads and cargo offers to identify origin and destination locations"
+          type: string
+          example: Vienna
+        country:
+          description: "The country of the location"
+          type: string
+          example: Austria
+        lat:
+          description: "The latitude of the GPS coordinate of the location"
+          type: number
+          format: long
+          example: 48.2083
+        lng:
+          description: "The longitude of the GPS coordinate of the location"
+          type: number
+          format: long
+          example: 16.3725
+        population:
+          description: "The current population at that location"
+          type: integer
+          minimum: 0
+          example: 1911191
+        roads:
+          description: "List of all the roads & destinations a truck can travel to"
+          type: array
+          items:
+            $ref: "#/components/schemas/Road"
+      required:
+        - city
+        - country
+        - lat
+        - lng
+        - population
+        - roads
+
+    Road:
+      type: object
+      properties:
+        dest:
+          description: "The `city` name of the destination location"
+          type: string
+          example: Bratislava
+        km:
+          description: "Distance to the destination from the current location"
+          type: number
+          format: long
+          example: 55
+        kmh:
+          description: |
+            Expected speed a truck can travel on that road in km/h. 
+            The same road can will have different expected travel speed, as each direction has e.g. different junctions, altitude profiles, ...
+          type: number
+          format: long
+          example: 83
+        major:
+          description: Major roads, like high ways, tend to have a higher traveling speed.
+          type: boolean
+          example: false
+      required:
+        - dest
+        - km
+        - kmh
+        - major

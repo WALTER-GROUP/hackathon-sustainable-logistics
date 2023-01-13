@@ -1,0 +1,2627 @@
+[
+  {
+    "country": "Germany",
+    "lat": 52.5167,
+    "lng": 13.3833,
+    "population": 3664088.0,
+    "roads": [
+      {
+        "dest": "Szczecin",
+        "km": 127,
+        "kmh": 76,
+        "major": false
+      },
+      {
+        "dest": "Hamburg",
+        "km": 253,
+        "kmh": 118,
+        "major": true
+      },
+      {
+        "dest": "Copenhagen",
+        "km": 355,
+        "kmh": 114,
+        "major": true
+      },
+      {
+        "dest": "Vienna",
+        "km": 523,
+        "kmh": 95,
+        "major": true
+      },
+      {
+        "dest": "Munich",
+        "km": 503,
+        "kmh": 107,
+        "major": true
+      },
+      {
+        "dest": "Warsaw",
+        "km": 518,
+        "kmh": 116,
+        "major": true
+      }
+    ],
+    "city": "Berlin"
+  },
+  {
+    "country": "Spain",
+    "lat": 40.4167,
+    "lng": -3.7167,
+    "population": 6006000.0,
+    "roads": [
+      {
+        "dest": "Barcelona",
+        "km": 506,
+        "kmh": 95,
+        "major": true
+      },
+      {
+        "dest": "Brussels",
+        "km": 1314,
+        "kmh": 113,
+        "major": true
+      },
+      {
+        "dest": "Malaga",
+        "km": 415,
+        "kmh": 69,
+        "major": false
+      },
+      {
+        "dest": "Paris",
+        "km": 1053,
+        "kmh": 108,
+        "major": true
+      },
+      {
+        "dest": "Zaragoza",
+        "km": 274,
+        "kmh": 77,
+        "major": false
+      },
+      {
+        "dest": "Bilbao",
+        "km": 322,
+        "kmh": 84,
+        "major": false
+      }
+    ],
+    "city": "Madrid"
+  },
+  {
+    "country": "Italy",
+    "lat": 41.8931,
+    "lng": 12.4828,
+    "population": 2872800.0,
+    "roads": [
+      {
+        "dest": "Palermo",
+        "km": 426,
+        "kmh": 74,
+        "major": false
+      },
+      {
+        "dest": "Munich",
+        "km": 697,
+        "kmh": 96,
+        "major": true
+      },
+      {
+        "dest": "Florence",
+        "km": 231,
+        "kmh": 62,
+        "major": false
+      },
+      {
+        "dest": "Naples",
+        "km": 188,
+        "kmh": 105,
+        "major": true
+      },
+      {
+        "dest": "Milan",
+        "km": 477,
+        "kmh": 99,
+        "major": true
+      }
+    ],
+    "city": "Rome"
+  },
+  {
+    "country": "France",
+    "lat": 48.8566,
+    "lng": 2.3522,
+    "population": 11027000.0,
+    "roads": [
+      {
+        "dest": "Barcelona",
+        "km": 831,
+        "kmh": 91,
+        "major": true
+      },
+      {
+        "dest": "Brussels",
+        "km": 261,
+        "kmh": 115,
+        "major": true
+      },
+      {
+        "dest": "Charleroi",
+        "km": 229,
+        "kmh": 78,
+        "major": false
+      },
+      {
+        "dest": "Madrid",
+        "km": 1053,
+        "kmh": 92,
+        "major": true
+      },
+      {
+        "dest": "Nantes",
+        "km": 342,
+        "kmh": 63,
+        "major": false
+      },
+      {
+        "dest": "Bruges",
+        "km": 268,
+        "kmh": 82,
+        "major": false
+      },
+      {
+        "dest": "Cologne",
+        "km": 403,
+        "kmh": 91,
+        "major": true
+      }
+    ],
+    "city": "Paris"
+  },
+  {
+    "country": "Romania",
+    "lat": 44.4,
+    "lng": 26.0833,
+    "population": 1883425.0,
+    "roads": [
+      {
+        "dest": "Budapest",
+        "km": 643,
+        "kmh": 101,
+        "major": true
+      },
+      {
+        "dest": "Pleven",
+        "km": 160,
+        "kmh": 70,
+        "major": false
+      },
+      {
+        "dest": "Sofia",
+        "km": 292,
+        "kmh": 115,
+        "major": true
+      },
+      {
+        "dest": "Warsaw",
+        "km": 947,
+        "kmh": 96,
+        "major": true
+      },
+      {
+        "dest": "Iasi",
+        "km": 328,
+        "kmh": 86,
+        "major": false
+      },
+      {
+        "dest": "Brasov",
+        "km": 144,
+        "kmh": 63,
+        "major": false
+      }
+    ],
+    "city": "Bucharest"
+  },
+  {
+    "country": "Poland",
+    "lat": 52.23,
+    "lng": 21.0111,
+    "population": 1790658.0,
+    "roads": [
+      {
+        "dest": "Lodz",
+        "km": 117,
+        "kmh": 88,
+        "major": false
+      },
+      {
+        "dest": "Berlin",
+        "km": 518,
+        "kmh": 93,
+        "major": true
+      },
+      {
+        "dest": "Krakow",
+        "km": 252,
+        "kmh": 78,
+        "major": false
+      },
+      {
+        "dest": "Vienna",
+        "km": 555,
+        "kmh": 103,
+        "major": true
+      },
+      {
+        "dest": "Budapest",
+        "km": 544,
+        "kmh": 116,
+        "major": true
+      },
+      {
+        "dest": "Bucharest",
+        "km": 947,
+        "kmh": 104,
+        "major": true
+      }
+    ],
+    "city": "Warsaw"
+  },
+  {
+    "country": "Germany",
+    "lat": 53.55,
+    "lng": 10.0,
+    "population": 1852478.0,
+    "roads": [
+      {
+        "dest": "Brussels",
+        "km": 490,
+        "kmh": 115,
+        "major": true
+      },
+      {
+        "dest": "Odense",
+        "km": 207,
+        "kmh": 70,
+        "major": false
+      },
+      {
+        "dest": "Berlin",
+        "km": 253,
+        "kmh": 96,
+        "major": true
+      },
+      {
+        "dest": "Copenhagen",
+        "km": 288,
+        "kmh": 117,
+        "major": true
+      },
+      {
+        "dest": "Cologne",
+        "km": 356,
+        "kmh": 93,
+        "major": true
+      }
+    ],
+    "city": "Hamburg"
+  },
+  {
+    "country": "Hungary",
+    "lat": 47.4983,
+    "lng": 19.0408,
+    "population": 1723836.0,
+    "roads": [
+      {
+        "dest": "Pecs",
+        "km": 170,
+        "kmh": 74,
+        "major": false
+      },
+      {
+        "dest": "Szeged",
+        "km": 163,
+        "kmh": 73,
+        "major": false
+      },
+      {
+        "dest": "Gyor",
+        "km": 107,
+        "kmh": 64,
+        "major": false
+      },
+      {
+        "dest": "Sofia",
+        "km": 630,
+        "kmh": 102,
+        "major": true
+      },
+      {
+        "dest": "Vienna",
+        "km": 214,
+        "kmh": 98,
+        "major": true
+      },
+      {
+        "dest": "Warsaw",
+        "km": 544,
+        "kmh": 120,
+        "major": true
+      },
+      {
+        "dest": "Bucharest",
+        "km": 643,
+        "kmh": 93,
+        "major": true
+      }
+    ],
+    "city": "Budapest"
+  },
+  {
+    "country": "Austria",
+    "lat": 48.2083,
+    "lng": 16.3725,
+    "population": 1911191.0,
+    "roads": [
+      {
+        "dest": "Bratislava",
+        "km": 55,
+        "kmh": 83,
+        "major": false
+      },
+      {
+        "dest": "Berlin",
+        "km": 523,
+        "kmh": 90,
+        "major": true
+      },
+      {
+        "dest": "Gyor",
+        "km": 110,
+        "kmh": 77,
+        "major": false
+      },
+      {
+        "dest": "Sofia",
+        "km": 817,
+        "kmh": 92,
+        "major": true
+      },
+      {
+        "dest": "Munich",
+        "km": 355,
+        "kmh": 120,
+        "major": true
+      },
+      {
+        "dest": "Warsaw",
+        "km": 555,
+        "kmh": 116,
+        "major": true
+      },
+      {
+        "dest": "Naples",
+        "km": 837,
+        "kmh": 94,
+        "major": true
+      },
+      {
+        "dest": "Budapest",
+        "km": 214,
+        "kmh": 108,
+        "major": true
+      }
+    ],
+    "city": "Vienna"
+  },
+  {
+    "country": "Spain",
+    "lat": 41.3825,
+    "lng": 2.1769,
+    "population": 4735000.0,
+    "roads": [
+      {
+        "dest": "Madrid",
+        "km": 506,
+        "kmh": 110,
+        "major": true
+      },
+      {
+        "dest": "Paris",
+        "km": 831,
+        "kmh": 112,
+        "major": true
+      },
+      {
+        "dest": "Toulouse",
+        "km": 254,
+        "kmh": 70,
+        "major": false
+      },
+      {
+        "dest": "Montpellier",
+        "km": 284,
+        "kmh": 79,
+        "major": false
+      },
+      {
+        "dest": "Milan",
+        "km": 725,
+        "kmh": 120,
+        "major": true
+      }
+    ],
+    "city": "Barcelona"
+  },
+  {
+    "country": "Bulgaria",
+    "lat": 42.6979,
+    "lng": 23.3217,
+    "population": 1277411.0,
+    "roads": [
+      {
+        "dest": "Plovdiv",
+        "km": 131,
+        "kmh": 71,
+        "major": false
+      },
+      {
+        "dest": "Budapest",
+        "km": 630,
+        "kmh": 90,
+        "major": true
+      },
+      {
+        "dest": "Craiova",
+        "km": 186,
+        "kmh": 70,
+        "major": false
+      },
+      {
+        "dest": "Vienna",
+        "km": 817,
+        "kmh": 119,
+        "major": true
+      },
+      {
+        "dest": "Pleven",
+        "km": 131,
+        "kmh": 77,
+        "major": false
+      },
+      {
+        "dest": "Bucharest",
+        "km": 292,
+        "kmh": 99,
+        "major": true
+      }
+    ],
+    "city": "Sofia"
+  },
+  {
+    "country": "Germany",
+    "lat": 48.1375,
+    "lng": 11.575,
+    "population": 1488202.0,
+    "roads": [
+      {
+        "dest": "Salzburg",
+        "km": 115,
+        "kmh": 64,
+        "major": false
+      },
+      {
+        "dest": "Berlin",
+        "km": 503,
+        "kmh": 120,
+        "major": true
+      },
+      {
+        "dest": "Innsbruck",
+        "km": 97,
+        "kmh": 67,
+        "major": false
+      },
+      {
+        "dest": "Vienna",
+        "km": 355,
+        "kmh": 102,
+        "major": true
+      },
+      {
+        "dest": "Stuttgart",
+        "km": 190,
+        "kmh": 62,
+        "major": false
+      },
+      {
+        "dest": "Rome",
+        "km": 697,
+        "kmh": 107,
+        "major": true
+      },
+      {
+        "dest": "Milan",
+        "km": 348,
+        "kmh": 107,
+        "major": true
+      }
+    ],
+    "city": "Munich"
+  },
+  {
+    "country": "Italy",
+    "lat": 45.4669,
+    "lng": 9.19,
+    "population": 1366180.0,
+    "roads": [
+      {
+        "dest": "Barcelona",
+        "km": 725,
+        "kmh": 107,
+        "major": true
+      },
+      {
+        "dest": "Genoa",
+        "km": 119,
+        "kmh": 86,
+        "major": false
+      },
+      {
+        "dest": "Munich",
+        "km": 348,
+        "kmh": 113,
+        "major": true
+      },
+      {
+        "dest": "Bologna",
+        "km": 200,
+        "kmh": 66,
+        "major": false
+      },
+      {
+        "dest": "Naples",
+        "km": 658,
+        "kmh": 95,
+        "major": true
+      },
+      {
+        "dest": "Cologne",
+        "km": 630,
+        "kmh": 91,
+        "major": true
+      },
+      {
+        "dest": "Rome",
+        "km": 477,
+        "kmh": 97,
+        "major": true
+      }
+    ],
+    "city": "Milan"
+  },
+  {
+    "country": "Denmark",
+    "lat": 55.6805,
+    "lng": 12.5615,
+    "population": 1085000.0,
+    "roads": [
+      {
+        "dest": "Odense",
+        "km": 140,
+        "kmh": 76,
+        "major": false
+      },
+      {
+        "dest": "Hamburg",
+        "km": 288,
+        "kmh": 119,
+        "major": true
+      },
+      {
+        "dest": "Berlin",
+        "km": 355,
+        "kmh": 90,
+        "major": true
+      },
+      {
+        "dest": "Aalborg",
+        "km": 221,
+        "kmh": 75,
+        "major": false
+      },
+      {
+        "dest": "Cologne",
+        "km": 644,
+        "kmh": 113,
+        "major": true
+      }
+    ],
+    "city": "Copenhagen"
+  },
+  {
+    "country": "Belgium",
+    "lat": 50.8353,
+    "lng": 4.3314,
+    "population": 1743000.0,
+    "roads": [
+      {
+        "dest": "Charleroi",
+        "km": 47,
+        "kmh": 73,
+        "major": false
+      },
+      {
+        "dest": "Madrid",
+        "km": 1314,
+        "kmh": 105,
+        "major": true
+      },
+      {
+        "dest": "Hamburg",
+        "km": 490,
+        "kmh": 112,
+        "major": true
+      },
+      {
+        "dest": "Antwerp",
+        "km": 43,
+        "kmh": 67,
+        "major": false
+      },
+      {
+        "dest": "Paris",
+        "km": 261,
+        "kmh": 107,
+        "major": true
+      },
+      {
+        "dest": "Namur",
+        "km": 55,
+        "kmh": 69,
+        "major": false
+      },
+      {
+        "dest": "Bruges",
+        "km": 87,
+        "kmh": 81,
+        "major": false
+      },
+      {
+        "dest": "Cologne",
+        "km": 184,
+        "kmh": 108,
+        "major": true
+      }
+    ],
+    "city": "Brussels"
+  },
+  {
+    "country": "Italy",
+    "lat": 40.8333,
+    "lng": 14.25,
+    "population": 966144.0,
+    "roads": [
+      {
+        "dest": "Palermo",
+        "km": 312,
+        "kmh": 76,
+        "major": false
+      },
+      {
+        "dest": "Vienna",
+        "km": 837,
+        "kmh": 90,
+        "major": true
+      },
+      {
+        "dest": "Rome",
+        "km": 188,
+        "kmh": 98,
+        "major": true
+      },
+      {
+        "dest": "Milan",
+        "km": 658,
+        "kmh": 104,
+        "major": true
+      }
+    ],
+    "city": "Naples"
+  },
+  {
+    "country": "Germany",
+    "lat": 50.9422,
+    "lng": 6.9578,
+    "population": 1083498.0,
+    "roads": [
+      {
+        "dest": "Eindhoven",
+        "km": 116,
+        "kmh": 74,
+        "major": false
+      },
+      {
+        "dest": "Brussels",
+        "km": 184,
+        "kmh": 103,
+        "major": true
+      },
+      {
+        "dest": "Dusseldorf",
+        "km": 34,
+        "kmh": 81,
+        "major": false
+      },
+      {
+        "dest": "Hamburg",
+        "km": 356,
+        "kmh": 104,
+        "major": true
+      },
+      {
+        "dest": "Frankfurt",
+        "km": 152,
+        "kmh": 67,
+        "major": false
+      },
+      {
+        "dest": "Copenhagen",
+        "km": 644,
+        "kmh": 95,
+        "major": true
+      },
+      {
+        "dest": "Paris",
+        "km": 403,
+        "kmh": 117,
+        "major": true
+      },
+      {
+        "dest": "Milan",
+        "km": 630,
+        "kmh": 90,
+        "major": true
+      }
+    ],
+    "city": "Cologne"
+  },
+  {
+    "country": "Spain",
+    "lat": 39.47,
+    "lng": -0.3764,
+    "population": 789744.0,
+    "roads": [
+      {
+        "dest": "Zaragoza",
+        "km": 246,
+        "kmh": 75,
+        "major": false
+      },
+      {
+        "dest": "Murcia",
+        "km": 177,
+        "kmh": 69,
+        "major": false
+      }
+    ],
+    "city": "Valencia"
+  },
+  {
+    "country": "France",
+    "lat": 43.2964,
+    "lng": 5.37,
+    "population": 868277.0,
+    "roads": [
+      {
+        "dest": "Montpellier",
+        "km": 125,
+        "kmh": 81,
+        "major": false
+      },
+      {
+        "dest": "Nice",
+        "km": 159,
+        "kmh": 88,
+        "major": false
+      },
+      {
+        "dest": "Lyon",
+        "km": 277,
+        "kmh": 82,
+        "major": false
+      }
+    ],
+    "city": "Marseille"
+  },
+  {
+    "country": "Poland",
+    "lat": 50.0614,
+    "lng": 19.9372,
+    "population": 766739.0,
+    "roads": [
+      {
+        "dest": "Kosice",
+        "km": 177,
+        "kmh": 68,
+        "major": false
+      },
+      {
+        "dest": "Lodz",
+        "km": 193,
+        "kmh": 90,
+        "major": false
+      },
+      {
+        "dest": "Warsaw",
+        "km": 252,
+        "kmh": 82,
+        "major": false
+      }
+    ],
+    "city": "Krakow"
+  },
+  {
+    "country": "Poland",
+    "lat": 51.7769,
+    "lng": 19.4547,
+    "population": 690422.0,
+    "roads": [
+      {
+        "dest": "Wroclaw",
+        "km": 183,
+        "kmh": 62,
+        "major": false
+      },
+      {
+        "dest": "Gdansk",
+        "km": 293,
+        "kmh": 83,
+        "major": false
+      },
+      {
+        "dest": "Warsaw",
+        "km": 117,
+        "kmh": 81,
+        "major": false
+      },
+      {
+        "dest": "Krakow",
+        "km": 193,
+        "kmh": 88,
+        "major": false
+      }
+    ],
+    "city": "Lodz"
+  },
+  {
+    "country": "Netherlands",
+    "lat": 52.3667,
+    "lng": 4.8833,
+    "population": 862965.0,
+    "roads": [
+      {
+        "dest": "Rotterdam",
+        "km": 56,
+        "kmh": 84,
+        "major": false
+      },
+      {
+        "dest": "Utrecht",
+        "km": 34,
+        "kmh": 77,
+        "major": false
+      },
+      {
+        "dest": "Almere",
+        "km": 23,
+        "kmh": 74,
+        "major": false
+      }
+    ],
+    "city": "Amsterdam"
+  },
+  {
+    "country": "Latvia",
+    "lat": 56.9475,
+    "lng": 24.1069,
+    "population": 614618.0,
+    "roads": [
+      {
+        "dest": "Panevezys",
+        "km": 136,
+        "kmh": 68,
+        "major": false
+      },
+      {
+        "dest": "Tallinn",
+        "km": 279,
+        "kmh": 78,
+        "major": false
+      },
+      {
+        "dest": "Siauliai",
+        "km": 123,
+        "kmh": 70,
+        "major": false
+      }
+    ],
+    "city": "Riga"
+  },
+  {
+    "country": "Greece",
+    "lat": 37.9842,
+    "lng": 23.7281,
+    "population": 664046.0,
+    "roads": [
+      {
+        "dest": "Plovdiv",
+        "km": 470,
+        "kmh": 69,
+        "major": false
+      },
+      {
+        "dest": "Piraeus",
+        "km": 8,
+        "kmh": 72,
+        "major": false
+      }
+    ],
+    "city": "Athens"
+  },
+  {
+    "country": "Italy",
+    "lat": 38.1111,
+    "lng": 13.3517,
+    "population": 668405.0,
+    "roads": [
+      {
+        "dest": "Naples",
+        "km": 312,
+        "kmh": 79,
+        "major": false
+      },
+      {
+        "dest": "Rome",
+        "km": 426,
+        "kmh": 66,
+        "major": false
+      }
+    ],
+    "city": "Palermo"
+  },
+  {
+    "country": "Poland",
+    "lat": 51.11,
+    "lng": 17.0325,
+    "population": 638586.0,
+    "roads": [
+      {
+        "dest": "Poznan",
+        "km": 144,
+        "kmh": 87,
+        "major": false
+      },
+      {
+        "dest": "Lodz",
+        "km": 183,
+        "kmh": 79,
+        "major": false
+      }
+    ],
+    "city": "Wroclaw"
+  },
+  {
+    "country": "Germany",
+    "lat": 50.1136,
+    "lng": 8.6797,
+    "population": 764104.0,
+    "roads": [
+      {
+        "dest": "Cologne",
+        "km": 152,
+        "kmh": 81,
+        "major": false
+      },
+      {
+        "dest": "Stuttgart",
+        "km": 153,
+        "kmh": 88,
+        "major": false
+      }
+    ],
+    "city": "Frankfurt"
+  },
+  {
+    "country": "Spain",
+    "lat": 41.65,
+    "lng": -0.8833,
+    "population": 675301.0,
+    "roads": [
+      {
+        "dest": "Madrid",
+        "km": 274,
+        "kmh": 74,
+        "major": false
+      },
+      {
+        "dest": "Bilbao",
+        "km": 244,
+        "kmh": 64,
+        "major": false
+      },
+      {
+        "dest": "Valencia",
+        "km": 246,
+        "kmh": 67,
+        "major": false
+      }
+    ],
+    "city": "Zaragoza"
+  },
+  {
+    "country": "Italy",
+    "lat": 44.4072,
+    "lng": 8.934,
+    "population": 580097.0,
+    "roads": [
+      {
+        "dest": "Nice",
+        "km": 154,
+        "kmh": 65,
+        "major": false
+      },
+      {
+        "dest": "Milan",
+        "km": 119,
+        "kmh": 67,
+        "major": false
+      }
+    ],
+    "city": "Genoa"
+  },
+  {
+    "country": "Germany",
+    "lat": 48.7761,
+    "lng": 9.1775,
+    "population": 630305.0,
+    "roads": [
+      {
+        "dest": "Munich",
+        "km": 190,
+        "kmh": 76,
+        "major": false
+      },
+      {
+        "dest": "Frankfurt",
+        "km": 153,
+        "kmh": 87,
+        "major": false
+      }
+    ],
+    "city": "Stuttgart"
+  },
+  {
+    "country": "Germany",
+    "lat": 51.2311,
+    "lng": 6.7724,
+    "population": 645923.0,
+    "roads": [
+      {
+        "dest": "Eindhoven",
+        "km": 92,
+        "kmh": 72,
+        "major": false
+      },
+      {
+        "dest": "Cologne",
+        "km": 34,
+        "kmh": 68,
+        "major": false
+      }
+    ],
+    "city": "Dusseldorf"
+  },
+  {
+    "country": "Poland",
+    "lat": 52.4083,
+    "lng": 16.9336,
+    "population": 533830.0,
+    "roads": [
+      {
+        "dest": "Wroclaw",
+        "km": 144,
+        "kmh": 68,
+        "major": false
+      },
+      {
+        "dest": "Gdansk",
+        "km": 245,
+        "kmh": 84,
+        "major": false
+      },
+      {
+        "dest": "Szczecin",
+        "km": 195,
+        "kmh": 73,
+        "major": false
+      }
+    ],
+    "city": "Poznan"
+  },
+  {
+    "country": "Lithuania",
+    "lat": 54.6833,
+    "lng": 25.2833,
+    "population": 574147.0,
+    "roads": [
+      {
+        "dest": "Kaunas",
+        "km": 89,
+        "kmh": 70,
+        "major": false
+      },
+      {
+        "dest": "Daugavpils",
+        "km": 153,
+        "kmh": 74,
+        "major": false
+      },
+      {
+        "dest": "Panevezys",
+        "km": 129,
+        "kmh": 79,
+        "major": false
+      }
+    ],
+    "city": "Vilnius"
+  },
+  {
+    "country": "Netherlands",
+    "lat": 51.9225,
+    "lng": 4.4792,
+    "population": 631155.0,
+    "roads": [
+      {
+        "dest": "Utrecht",
+        "km": 47,
+        "kmh": 64,
+        "major": false
+      },
+      {
+        "dest": "Antwerp",
+        "km": 78,
+        "kmh": 75,
+        "major": false
+      },
+      {
+        "dest": "Amsterdam",
+        "km": 56,
+        "kmh": 63,
+        "major": false
+      }
+    ],
+    "city": "Rotterdam"
+  },
+  {
+    "country": "Spain",
+    "lat": 36.7194,
+    "lng": -4.42,
+    "population": 577405.0,
+    "roads": [
+      {
+        "dest": "Madrid",
+        "km": 415,
+        "kmh": 69,
+        "major": false
+      },
+      {
+        "dest": "Murcia",
+        "km": 323,
+        "kmh": 70,
+        "major": false
+      }
+    ],
+    "city": "Malaga"
+  },
+  {
+    "country": "Poland",
+    "lat": 54.3667,
+    "lng": 18.6333,
+    "population": 464254.0,
+    "roads": [
+      {
+        "dest": "Poznan",
+        "km": 245,
+        "kmh": 61,
+        "major": false
+      },
+      {
+        "dest": "Klaipeda",
+        "km": 218,
+        "kmh": 67,
+        "major": false
+      },
+      {
+        "dest": "Lodz",
+        "km": 293,
+        "kmh": 66,
+        "major": false
+      }
+    ],
+    "city": "Gdansk"
+  },
+  {
+    "country": "Belgium",
+    "lat": 51.2211,
+    "lng": 4.3997,
+    "population": 529247.0,
+    "roads": [
+      {
+        "dest": "Bruges",
+        "km": 81,
+        "kmh": 69,
+        "major": false
+      },
+      {
+        "dest": "Brussels",
+        "km": 43,
+        "kmh": 89,
+        "major": false
+      },
+      {
+        "dest": "Rotterdam",
+        "km": 78,
+        "kmh": 60,
+        "major": false
+      }
+    ],
+    "city": "Antwerp"
+  },
+  {
+    "country": "France",
+    "lat": 45.76,
+    "lng": 4.84,
+    "population": 518635.0,
+    "roads": [
+      {
+        "dest": "Montpellier",
+        "km": 250,
+        "kmh": 66,
+        "major": false
+      },
+      {
+        "dest": "Marseille",
+        "km": 277,
+        "kmh": 72,
+        "major": false
+      }
+    ],
+    "city": "Lyon"
+  },
+  {
+    "country": "Slovakia",
+    "lat": 48.1447,
+    "lng": 17.1128,
+    "population": 475503.0,
+    "roads": [
+      {
+        "dest": "Gyor",
+        "km": 64,
+        "kmh": 64,
+        "major": false
+      },
+      {
+        "dest": "Vienna",
+        "km": 55,
+        "kmh": 89,
+        "major": false
+      }
+    ],
+    "city": "Bratislava"
+  },
+  {
+    "country": "Poland",
+    "lat": 53.4247,
+    "lng": 14.5553,
+    "population": 403833.0,
+    "roads": [
+      {
+        "dest": "Poznan",
+        "km": 195,
+        "kmh": 84,
+        "major": false
+      },
+      {
+        "dest": "Berlin",
+        "km": 127,
+        "kmh": 84,
+        "major": false
+      }
+    ],
+    "city": "Szczecin"
+  },
+  {
+    "country": "Bulgaria",
+    "lat": 42.1421,
+    "lng": 24.7415,
+    "population": 366511.0,
+    "roads": [
+      {
+        "dest": "Piraeus",
+        "km": 476,
+        "kmh": 63,
+        "major": false
+      },
+      {
+        "dest": "Stara Zagora",
+        "km": 79,
+        "kmh": 89,
+        "major": false
+      },
+      {
+        "dest": "Athens",
+        "km": 470,
+        "kmh": 81,
+        "major": false
+      },
+      {
+        "dest": "Sofia",
+        "km": 131,
+        "kmh": 62,
+        "major": false
+      },
+      {
+        "dest": "Pleven",
+        "km": 141,
+        "kmh": 74,
+        "major": false
+      }
+    ],
+    "city": "Plovdiv"
+  },
+  {
+    "country": "Estonia",
+    "lat": 59.4372,
+    "lng": 24.745,
+    "population": 438341.0,
+    "roads": [
+      {
+        "dest": "Riga",
+        "km": 279,
+        "kmh": 65,
+        "major": false
+      },
+      {
+        "dest": "Tartu",
+        "km": 163,
+        "kmh": 86,
+        "major": false
+      }
+    ],
+    "city": "Tallinn"
+  },
+  {
+    "country": "France",
+    "lat": 43.6045,
+    "lng": 1.444,
+    "population": 486828.0,
+    "roads": [
+      {
+        "dest": "Barcelona",
+        "km": 254,
+        "kmh": 81,
+        "major": false
+      },
+      {
+        "dest": "Montpellier",
+        "km": 195,
+        "kmh": 79,
+        "major": false
+      }
+    ],
+    "city": "Toulouse"
+  },
+  {
+    "country": "Spain",
+    "lat": 37.9861,
+    "lng": -1.1303,
+    "population": 460349.0,
+    "roads": [
+      {
+        "dest": "Malaga",
+        "km": 323,
+        "kmh": 60,
+        "major": false
+      },
+      {
+        "dest": "Valencia",
+        "km": 177,
+        "kmh": 84,
+        "major": false
+      }
+    ],
+    "city": "Murcia"
+  },
+  {
+    "country": "Italy",
+    "lat": 44.4939,
+    "lng": 11.3428,
+    "population": 389261.0,
+    "roads": [
+      {
+        "dest": "Florence",
+        "km": 80,
+        "kmh": 89,
+        "major": false
+      },
+      {
+        "dest": "Milan",
+        "km": 200,
+        "kmh": 83,
+        "major": false
+      }
+    ],
+    "city": "Bologna"
+  },
+  {
+    "country": "Lithuania",
+    "lat": 54.9,
+    "lng": 23.9333,
+    "population": 288466.0,
+    "roads": [
+      {
+        "dest": "Panevezys",
+        "km": 95,
+        "kmh": 69,
+        "major": false
+      },
+      {
+        "dest": "Vilnius",
+        "km": 89,
+        "kmh": 77,
+        "major": false
+      },
+      {
+        "dest": "Siauliai",
+        "km": 120,
+        "kmh": 80,
+        "major": false
+      }
+    ],
+    "city": "Kaunas"
+  },
+  {
+    "country": "Italy",
+    "lat": 43.7714,
+    "lng": 11.2542,
+    "population": 380948.0,
+    "roads": [
+      {
+        "dest": "Rome",
+        "km": 231,
+        "kmh": 78,
+        "major": false
+      },
+      {
+        "dest": "Bologna",
+        "km": 80,
+        "kmh": 63,
+        "major": false
+      }
+    ],
+    "city": "Florence"
+  },
+  {
+    "country": "Spain",
+    "lat": 43.2569,
+    "lng": -2.9236,
+    "population": 346405.0,
+    "roads": [
+      {
+        "dest": "Madrid",
+        "km": 322,
+        "kmh": 73,
+        "major": false
+      },
+      {
+        "dest": "Zaragoza",
+        "km": 244,
+        "kmh": 60,
+        "major": false
+      },
+      {
+        "dest": "Nantes",
+        "km": 453,
+        "kmh": 73,
+        "major": false
+      }
+    ],
+    "city": "Bilbao"
+  },
+  {
+    "country": "France",
+    "lat": 43.7034,
+    "lng": 7.2663,
+    "population": 341032.0,
+    "roads": [
+      {
+        "dest": "Genoa",
+        "km": 154,
+        "kmh": 72,
+        "major": false
+      },
+      {
+        "dest": "Marseille",
+        "km": 159,
+        "kmh": 67,
+        "major": false
+      }
+    ],
+    "city": "Nice"
+  },
+  {
+    "country": "Romania",
+    "lat": 47.1622,
+    "lng": 27.5889,
+    "population": 290422.0,
+    "roads": [
+      {
+        "dest": "Brasov",
+        "km": 226,
+        "kmh": 64,
+        "major": false
+      },
+      {
+        "dest": "Bucharest",
+        "km": 328,
+        "kmh": 64,
+        "major": false
+      }
+    ],
+    "city": "Iasi"
+  },
+  {
+    "country": "Romania",
+    "lat": 45.7597,
+    "lng": 21.23,
+    "population": 319279.0,
+    "roads": [
+      {
+        "dest": "Szeged",
+        "km": 98,
+        "kmh": 78,
+        "major": false
+      },
+      {
+        "dest": "Debrecen",
+        "km": 199,
+        "kmh": 62,
+        "major": false
+      }
+    ],
+    "city": "Timisoara"
+  },
+  {
+    "country": "Romania",
+    "lat": 46.78,
+    "lng": 23.5594,
+    "population": 324576.0,
+    "roads": [
+      {
+        "dest": "Nyiregyhaza",
+        "km": 190,
+        "kmh": 84,
+        "major": false
+      },
+      {
+        "dest": "Debrecen",
+        "km": 167,
+        "kmh": 72,
+        "major": false
+      }
+    ],
+    "city": "Cluj-Napoca"
+  },
+  {
+    "country": "Romania",
+    "lat": 44.3333,
+    "lng": 23.8167,
+    "population": 269506.0,
+    "roads": [
+      {
+        "dest": "Sofia",
+        "km": 186,
+        "kmh": 81,
+        "major": false
+      },
+      {
+        "dest": "Pleven",
+        "km": 120,
+        "kmh": 78,
+        "major": false
+      },
+      {
+        "dest": "Brasov",
+        "km": 202,
+        "kmh": 83,
+        "major": false
+      }
+    ],
+    "city": "Craiova"
+  },
+  {
+    "country": "Netherlands",
+    "lat": 52.0889,
+    "lng": 5.1156,
+    "population": 343779.0,
+    "roads": [
+      {
+        "dest": "Eindhoven",
+        "km": 77,
+        "kmh": 68,
+        "major": false
+      },
+      {
+        "dest": "Groningen",
+        "km": 159,
+        "kmh": 89,
+        "major": false
+      },
+      {
+        "dest": "Tilburg",
+        "km": 57,
+        "kmh": 68,
+        "major": false
+      },
+      {
+        "dest": "Amsterdam",
+        "km": 34,
+        "kmh": 83,
+        "major": false
+      },
+      {
+        "dest": "Almere",
+        "km": 32,
+        "kmh": 71,
+        "major": false
+      },
+      {
+        "dest": "Rotterdam",
+        "km": 47,
+        "kmh": 76,
+        "major": false
+      }
+    ],
+    "city": "Utrecht"
+  },
+  {
+    "country": "Romania",
+    "lat": 45.65,
+    "lng": 25.6,
+    "population": 290743.0,
+    "roads": [
+      {
+        "dest": "Iasi",
+        "km": 226,
+        "kmh": 60,
+        "major": false
+      },
+      {
+        "dest": "Craiova",
+        "km": 202,
+        "kmh": 84,
+        "major": false
+      },
+      {
+        "dest": "Bucharest",
+        "km": 144,
+        "kmh": 61,
+        "major": false
+      }
+    ],
+    "city": "Brasov"
+  },
+  {
+    "country": "France",
+    "lat": 47.2181,
+    "lng": -1.5528,
+    "population": 314138.0,
+    "roads": [
+      {
+        "dest": "Bilbao",
+        "km": 453,
+        "kmh": 80,
+        "major": false
+      },
+      {
+        "dest": "Paris",
+        "km": 342,
+        "kmh": 82,
+        "major": false
+      }
+    ],
+    "city": "Nantes"
+  },
+  {
+    "country": "Slovenia",
+    "lat": 46.05,
+    "lng": 14.5167,
+    "population": 286745.0,
+    "roads": [
+      {
+        "dest": "Rijeka",
+        "km": 80,
+        "kmh": 60,
+        "major": false
+      },
+      {
+        "dest": "Maribor",
+        "km": 102,
+        "kmh": 90,
+        "major": false
+      },
+      {
+        "dest": "Graz",
+        "km": 133,
+        "kmh": 60,
+        "major": false
+      }
+    ],
+    "city": "Ljubljana"
+  },
+  {
+    "country": "Austria",
+    "lat": 47.0708,
+    "lng": 15.4386,
+    "population": 289440.0,
+    "roads": [
+      {
+        "dest": "Linz",
+        "km": 161,
+        "kmh": 82,
+        "major": false
+      },
+      {
+        "dest": "Ljubljana",
+        "km": 133,
+        "kmh": 80,
+        "major": false
+      },
+      {
+        "dest": "Maribor",
+        "km": 59,
+        "kmh": 74,
+        "major": false
+      }
+    ],
+    "city": "Graz"
+  },
+  {
+    "country": "Slovakia",
+    "lat": 48.7167,
+    "lng": 21.25,
+    "population": 238593.0,
+    "roads": [
+      {
+        "dest": "Nyiregyhaza",
+        "km": 91,
+        "kmh": 88,
+        "major": false
+      },
+      {
+        "dest": "Miskolc",
+        "km": 76,
+        "kmh": 75,
+        "major": false
+      },
+      {
+        "dest": "Krakow",
+        "km": 177,
+        "kmh": 72,
+        "major": false
+      }
+    ],
+    "city": "Kosice"
+  },
+  {
+    "country": "France",
+    "lat": 43.6119,
+    "lng": 3.8772,
+    "population": 290053.0,
+    "roads": [
+      {
+        "dest": "Barcelona",
+        "km": 284,
+        "kmh": 71,
+        "major": false
+      },
+      {
+        "dest": "Toulouse",
+        "km": 195,
+        "kmh": 62,
+        "major": false
+      },
+      {
+        "dest": "Marseille",
+        "km": 125,
+        "kmh": 70,
+        "major": false
+      },
+      {
+        "dest": "Lyon",
+        "km": 250,
+        "kmh": 80,
+        "major": false
+      }
+    ],
+    "city": "Montpellier"
+  },
+  {
+    "country": "Netherlands",
+    "lat": 51.4344,
+    "lng": 5.4842,
+    "population": 231642.0,
+    "roads": [
+      {
+        "dest": "Dusseldorf",
+        "km": 92,
+        "kmh": 70,
+        "major": false
+      },
+      {
+        "dest": "Utrecht",
+        "km": 77,
+        "kmh": 86,
+        "major": false
+      },
+      {
+        "dest": "Cologne",
+        "km": 116,
+        "kmh": 78,
+        "major": false
+      },
+      {
+        "dest": "Tilburg",
+        "km": 32,
+        "kmh": 76,
+        "major": false
+      }
+    ],
+    "city": "Eindhoven"
+  },
+  {
+    "country": "Hungary",
+    "lat": 47.53,
+    "lng": 21.6392,
+    "population": 200974.0,
+    "roads": [
+      {
+        "dest": "Cluj-Napoca",
+        "km": 167,
+        "kmh": 77,
+        "major": false
+      },
+      {
+        "dest": "Nyiregyhaza",
+        "km": 47,
+        "kmh": 81,
+        "major": false
+      },
+      {
+        "dest": "Miskolc",
+        "km": 90,
+        "kmh": 61,
+        "major": false
+      },
+      {
+        "dest": "Timisoara",
+        "km": 199,
+        "kmh": 79,
+        "major": false
+      }
+    ],
+    "city": "Debrecen"
+  },
+  {
+    "country": "Belgium",
+    "lat": 50.4167,
+    "lng": 4.4442,
+    "population": 201816.0,
+    "roads": [
+      {
+        "dest": "Brussels",
+        "km": 47,
+        "kmh": 75,
+        "major": false
+      },
+      {
+        "dest": "Namur",
+        "km": 30,
+        "kmh": 75,
+        "major": false
+      },
+      {
+        "dest": "Paris",
+        "km": 229,
+        "kmh": 69,
+        "major": false
+      }
+    ],
+    "city": "Charleroi"
+  },
+  {
+    "country": "Austria",
+    "lat": 48.3,
+    "lng": 14.2833,
+    "population": 204846.0,
+    "roads": [
+      {
+        "dest": "Salzburg",
+        "km": 107,
+        "kmh": 89,
+        "major": false
+      },
+      {
+        "dest": "Graz",
+        "km": 161,
+        "kmh": 61,
+        "major": false
+      }
+    ],
+    "city": "Linz"
+  },
+  {
+    "country": "Lithuania",
+    "lat": 55.7075,
+    "lng": 21.1428,
+    "population": 164310.0,
+    "roads": [
+      {
+        "dest": "Siauliai",
+        "km": 137,
+        "kmh": 88,
+        "major": false
+      },
+      {
+        "dest": "Gdansk",
+        "km": 218,
+        "kmh": 72,
+        "major": false
+      }
+    ],
+    "city": "Klaipeda"
+  },
+  {
+    "country": "Netherlands",
+    "lat": 51.57,
+    "lng": 5.07,
+    "population": 217259.0,
+    "roads": [
+      {
+        "dest": "Eindhoven",
+        "km": 32,
+        "kmh": 66,
+        "major": false
+      },
+      {
+        "dest": "Utrecht",
+        "km": 57,
+        "kmh": 79,
+        "major": false
+      }
+    ],
+    "city": "Tilburg"
+  },
+  {
+    "country": "Hungary",
+    "lat": 48.1,
+    "lng": 20.7833,
+    "population": 150695.0,
+    "roads": [
+      {
+        "dest": "Kosice",
+        "km": 76,
+        "kmh": 90,
+        "major": false
+      },
+      {
+        "dest": "Nyiregyhaza",
+        "km": 71,
+        "kmh": 72,
+        "major": false
+      },
+      {
+        "dest": "Debrecen",
+        "km": 90,
+        "kmh": 75,
+        "major": false
+      }
+    ],
+    "city": "Miskolc"
+  },
+  {
+    "country": "Croatia",
+    "lat": 43.51,
+    "lng": 16.45,
+    "population": 178102.0,
+    "roads": [
+      {
+        "dest": "Pecs",
+        "km": 317,
+        "kmh": 77,
+        "major": false
+      },
+      {
+        "dest": "Rijeka",
+        "km": 257,
+        "kmh": 65,
+        "major": false
+      }
+    ],
+    "city": "Split"
+  },
+  {
+    "country": "Greece",
+    "lat": 37.943,
+    "lng": 23.6469,
+    "population": 163688.0,
+    "roads": [
+      {
+        "dest": "Plovdiv",
+        "km": 476,
+        "kmh": 80,
+        "major": false
+      },
+      {
+        "dest": "Athens",
+        "km": 8,
+        "kmh": 80,
+        "major": false
+      }
+    ],
+    "city": "Piraeus"
+  },
+  {
+    "country": "Netherlands",
+    "lat": 53.2167,
+    "lng": 6.5667,
+    "population": 201462.0,
+    "roads": [
+      {
+        "dest": "Utrecht",
+        "km": 159,
+        "kmh": 75,
+        "major": false
+      },
+      {
+        "dest": "Almere",
+        "km": 129,
+        "kmh": 80,
+        "major": false
+      }
+    ],
+    "city": "Groningen"
+  },
+  {
+    "country": "Hungary",
+    "lat": 46.25,
+    "lng": 20.1667,
+    "population": 159074.0,
+    "roads": [
+      {
+        "dest": "Timisoara",
+        "km": 98,
+        "kmh": 62,
+        "major": false
+      },
+      {
+        "dest": "Budapest",
+        "km": 163,
+        "kmh": 86,
+        "major": false
+      }
+    ],
+    "city": "Szeged"
+  },
+  {
+    "country": "Hungary",
+    "lat": 46.0708,
+    "lng": 18.2331,
+    "population": 140237.0,
+    "roads": [
+      {
+        "dest": "Gyor",
+        "km": 185,
+        "kmh": 60,
+        "major": false
+      },
+      {
+        "dest": "Split",
+        "km": 317,
+        "kmh": 84,
+        "major": false
+      },
+      {
+        "dest": "Budapest",
+        "km": 170,
+        "kmh": 83,
+        "major": false
+      }
+    ],
+    "city": "Pecs"
+  },
+  {
+    "country": "Denmark",
+    "lat": 55.4004,
+    "lng": 10.3833,
+    "population": 158222.0,
+    "roads": [
+      {
+        "dest": "Aalborg",
+        "km": 183,
+        "kmh": 74,
+        "major": false
+      },
+      {
+        "dest": "Hamburg",
+        "km": 207,
+        "kmh": 67,
+        "major": false
+      },
+      {
+        "dest": "Copenhagen",
+        "km": 140,
+        "kmh": 86,
+        "major": false
+      }
+    ],
+    "city": "Odense"
+  },
+  {
+    "country": "Austria",
+    "lat": 47.7972,
+    "lng": 13.0477,
+    "population": 155021.0,
+    "roads": [
+      {
+        "dest": "Linz",
+        "km": 107,
+        "kmh": 88,
+        "major": false
+      },
+      {
+        "dest": "Munich",
+        "km": 115,
+        "kmh": 74,
+        "major": false
+      },
+      {
+        "dest": "Innsbruck",
+        "km": 137,
+        "kmh": 83,
+        "major": false
+      }
+    ],
+    "city": "Salzburg"
+  },
+  {
+    "country": "Bulgaria",
+    "lat": 42.4257,
+    "lng": 25.6346,
+    "population": 136475.0,
+    "roads": [
+      {
+        "dest": "Plovdiv",
+        "km": 79,
+        "kmh": 74,
+        "major": false
+      },
+      {
+        "dest": "Pleven",
+        "km": 137,
+        "kmh": 61,
+        "major": false
+      }
+    ],
+    "city": "Stara Zagora"
+  },
+  {
+    "country": "Croatia",
+    "lat": 45.3272,
+    "lng": 14.4411,
+    "population": 128624.0,
+    "roads": [
+      {
+        "dest": "Split",
+        "km": 257,
+        "kmh": 70,
+        "major": false
+      },
+      {
+        "dest": "Ljubljana",
+        "km": 80,
+        "kmh": 70,
+        "major": false
+      },
+      {
+        "dest": "Maribor",
+        "km": 164,
+        "kmh": 84,
+        "major": false
+      }
+    ],
+    "city": "Rijeka"
+  },
+  {
+    "country": "Lithuania",
+    "lat": 55.9281,
+    "lng": 23.3167,
+    "population": 107086.0,
+    "roads": [
+      {
+        "dest": "Riga",
+        "km": 123,
+        "kmh": 83,
+        "major": false
+      },
+      {
+        "dest": "Panevezys",
+        "km": 69,
+        "kmh": 77,
+        "major": false
+      },
+      {
+        "dest": "Klaipeda",
+        "km": 137,
+        "kmh": 61,
+        "major": false
+      },
+      {
+        "dest": "Kaunas",
+        "km": 120,
+        "kmh": 79,
+        "major": false
+      }
+    ],
+    "city": "Siauliai"
+  },
+  {
+    "country": "Hungary",
+    "lat": 47.6842,
+    "lng": 17.6344,
+    "population": 132735.0,
+    "roads": [
+      {
+        "dest": "Bratislava",
+        "km": 64,
+        "kmh": 83,
+        "major": false
+      },
+      {
+        "dest": "Pecs",
+        "km": 185,
+        "kmh": 66,
+        "major": false
+      },
+      {
+        "dest": "Vienna",
+        "km": 110,
+        "kmh": 63,
+        "major": false
+      },
+      {
+        "dest": "Budapest",
+        "km": 107,
+        "kmh": 77,
+        "major": false
+      }
+    ],
+    "city": "Gyor"
+  },
+  {
+    "country": "Denmark",
+    "lat": 57.0337,
+    "lng": 9.9166,
+    "population": 122219.0,
+    "roads": [
+      {
+        "dest": "Odense",
+        "km": 183,
+        "kmh": 71,
+        "major": false
+      },
+      {
+        "dest": "Copenhagen",
+        "km": 221,
+        "kmh": 73,
+        "major": false
+      }
+    ],
+    "city": "Aalborg"
+  },
+  {
+    "country": "Bulgaria",
+    "lat": 43.4132,
+    "lng": 24.6169,
+    "population": 101299.0,
+    "roads": [
+      {
+        "dest": "Plovdiv",
+        "km": 141,
+        "kmh": 62,
+        "major": false
+      },
+      {
+        "dest": "Stara Zagora",
+        "km": 137,
+        "kmh": 90,
+        "major": false
+      },
+      {
+        "dest": "Sofia",
+        "km": 131,
+        "kmh": 66,
+        "major": false
+      },
+      {
+        "dest": "Craiova",
+        "km": 120,
+        "kmh": 79,
+        "major": false
+      },
+      {
+        "dest": "Bucharest",
+        "km": 160,
+        "kmh": 84,
+        "major": false
+      }
+    ],
+    "city": "Pleven"
+  },
+  {
+    "country": "Austria",
+    "lat": 47.2683,
+    "lng": 11.3933,
+    "population": 132493.0,
+    "roads": [
+      {
+        "dest": "Salzburg",
+        "km": 137,
+        "kmh": 65,
+        "major": false
+      },
+      {
+        "dest": "Munich",
+        "km": 97,
+        "kmh": 78,
+        "major": false
+      }
+    ],
+    "city": "Innsbruck"
+  },
+  {
+    "country": "Belgium",
+    "lat": 51.2089,
+    "lng": 3.2242,
+    "population": 118284.0,
+    "roads": [
+      {
+        "dest": "Brussels",
+        "km": 87,
+        "kmh": 63,
+        "major": false
+      },
+      {
+        "dest": "Antwerp",
+        "km": 81,
+        "kmh": 89,
+        "major": false
+      },
+      {
+        "dest": "Paris",
+        "km": 268,
+        "kmh": 66,
+        "major": false
+      }
+    ],
+    "city": "Bruges"
+  },
+  {
+    "country": "Hungary",
+    "lat": 47.95,
+    "lng": 21.7167,
+    "population": 116554.0,
+    "roads": [
+      {
+        "dest": "Kosice",
+        "km": 91,
+        "kmh": 86,
+        "major": false
+      },
+      {
+        "dest": "Cluj-Napoca",
+        "km": 190,
+        "kmh": 77,
+        "major": false
+      },
+      {
+        "dest": "Miskolc",
+        "km": 71,
+        "kmh": 66,
+        "major": false
+      },
+      {
+        "dest": "Debrecen",
+        "km": 47,
+        "kmh": 70,
+        "major": false
+      }
+    ],
+    "city": "Nyiregyhaza"
+  },
+  {
+    "country": "Slovenia",
+    "lat": 46.55,
+    "lng": 15.6333,
+    "population": 96211.0,
+    "roads": [
+      {
+        "dest": "Rijeka",
+        "km": 164,
+        "kmh": 77,
+        "major": false
+      },
+      {
+        "dest": "Ljubljana",
+        "km": 102,
+        "kmh": 89,
+        "major": false
+      },
+      {
+        "dest": "Graz",
+        "km": 59,
+        "kmh": 61,
+        "major": false
+      }
+    ],
+    "city": "Maribor"
+  },
+  {
+    "country": "Lithuania",
+    "lat": 55.725,
+    "lng": 24.3639,
+    "population": 91054.0,
+    "roads": [
+      {
+        "dest": "Daugavpils",
+        "km": 135,
+        "kmh": 79,
+        "major": false
+      },
+      {
+        "dest": "Vilnius",
+        "km": 129,
+        "kmh": 83,
+        "major": false
+      },
+      {
+        "dest": "Riga",
+        "km": 136,
+        "kmh": 85,
+        "major": false
+      },
+      {
+        "dest": "Kaunas",
+        "km": 95,
+        "kmh": 67,
+        "major": false
+      },
+      {
+        "dest": "Siauliai",
+        "km": 69,
+        "kmh": 86,
+        "major": false
+      }
+    ],
+    "city": "Panevezys"
+  },
+  {
+    "country": "Latvia",
+    "lat": 55.8714,
+    "lng": 26.5161,
+    "population": 80627.0,
+    "roads": [
+      {
+        "dest": "Tartu",
+        "km": 279,
+        "kmh": 85,
+        "major": false
+      },
+      {
+        "dest": "Vilnius",
+        "km": 153,
+        "kmh": 88,
+        "major": false
+      },
+      {
+        "dest": "Panevezys",
+        "km": 135,
+        "kmh": 80,
+        "major": false
+      }
+    ],
+    "city": "Daugavpils"
+  },
+  {
+    "country": "Belgium",
+    "lat": 50.4667,
+    "lng": 4.8667,
+    "population": 110939.0,
+    "roads": [
+      {
+        "dest": "Brussels",
+        "km": 55,
+        "kmh": 77,
+        "major": false
+      },
+      {
+        "dest": "Charleroi",
+        "km": 30,
+        "kmh": 66,
+        "major": false
+      }
+    ],
+    "city": "Namur"
+  },
+  {
+    "country": "Netherlands",
+    "lat": 52.3758,
+    "lng": 5.2256,
+    "population": 207904.0,
+    "roads": [
+      {
+        "dest": "Utrecht",
+        "km": 32,
+        "kmh": 82,
+        "major": false
+      },
+      {
+        "dest": "Groningen",
+        "km": 129,
+        "kmh": 64,
+        "major": false
+      },
+      {
+        "dest": "Amsterdam",
+        "km": 23,
+        "kmh": 80,
+        "major": false
+      }
+    ],
+    "city": "Almere"
+  },
+  {
+    "country": "Estonia",
+    "lat": 58.38,
+    "lng": 26.7225,
+    "population": 91407.0,
+    "roads": [
+      {
+        "dest": "Daugavpils",
+        "km": 279,
+        "kmh": 65,
+        "major": false
+      },
+      {
+        "dest": "Tallinn",
+        "km": 163,
+        "kmh": 76,
+        "major": false
+      }
+    ],
+    "city": "Tartu"
+  }
+]

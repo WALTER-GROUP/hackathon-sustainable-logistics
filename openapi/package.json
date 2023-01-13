@@ -1,0 +1,14 @@
+{
+  "name": "openapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "swagger-ui-watcher --port=8181 openapi.yaml"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "swagger-ui-watcher": "^2.1.12"
+  }
+}
