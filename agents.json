@@ -29,5 +29,15 @@
     "created_at": "2023-01-13T09:51:16+01:00",
     "status": "Error",
     "error_message": "Error onboarding agent: unique ID is empty. Please change the agent.json file in your repository."
+  },
+  {
+    "unique_id": "team-trustbit",
+    "repo_name": "pedroananias/team-hackathon",
+    "installation_id": 33095950,
+    "is_fleet": true,
+    "build_count": 1,
+    "created_at": "2023-01-13T09:51:49+01:00",
+    "last_build_triggered_at": "2023-01-13T08:51:54.704745664Z",
+    "status": "Onboarded"
   }
 ]
