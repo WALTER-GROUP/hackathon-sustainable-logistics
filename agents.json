@@ -44,9 +44,9 @@
     "repo_name": "pedroananias/team-hackathon",
     "installation_id": 33095950,
     "is_fleet": true,
-    "build_count": 2,
+    "build_count": 3,
     "created_at": "2023-01-13T08:51:49Z",
-    "last_build_triggered_at": "2023-01-13T14:30:48.887931505Z",
+    "last_build_triggered_at": "2023-01-13T14:37:03.051533567Z",
     "status": "Onboarded"
   },
   {
