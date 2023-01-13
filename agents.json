@@ -197,5 +197,15 @@
     "updated_at": "2023-01-13T12:14:18.613540992Z",
     "last_build_triggered_at": "2023-01-13T13:07:26.536439685Z",
     "status": "Onboarded"
+  },
+  {
+    "unique_id": "curd-zoechmann-fleet-just4fun",
+    "repo_name": "zoechmann-curd/hackathon-fleet-just4fun",
+    "installation_id": 33095734,
+    "is_fleet": true,
+    "build_count": 1,
+    "created_at": "2023-01-13T09:41:48+01:00",
+    "last_build_triggered_at": "2023-01-13T13:25:45.510310925Z",
+    "status": "Onboarded"
   }
 ]
