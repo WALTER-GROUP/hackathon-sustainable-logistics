@@ -105,14 +105,14 @@
     "status": "Onboarded"
   },
   {
-    "unique_id": "LukasAndFriends",
+    "unique_id": "lukas-and-friends",
     "repo_name": "wltmlx/hackerthon",
     "installation_id": 33096121,
     "is_fleet": true,
     "build_count": 0,
     "created_at": "2023-01-13T09:58:15+01:00",
-    "status": "Error",
-    "error_message": "Error onboarding agent: unexpected unique ID format. Please use only lowercase letters, numbers and dashes. The unique ID must not start or end with a dash. Please change the agent.json file in your repository."
+    "updated_at": "2023-01-13T09:00:21.377539283Z",
+    "status": "Onboarded"
   },
   {
     "unique_id": "",
@@ -123,5 +123,14 @@
     "created_at": "2023-01-13T10:00:14+01:00",
     "status": "Error",
     "error_message": "Error onboarding agent: unique ID is empty. Please change the agent.json file in your repository."
+  },
+  {
+    "unique_id": "kw",
+    "repo_name": "gregorsatzinger/walter-hackathon",
+    "installation_id": 33096165,
+    "is_fleet": true,
+    "build_count": 0,
+    "created_at": "2023-01-13T10:00:19+01:00",
+    "status": "Onboarded"
   }
 ]
