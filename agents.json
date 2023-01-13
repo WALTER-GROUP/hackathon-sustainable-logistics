@@ -70,5 +70,15 @@
     "created_at": "2023-01-13T09:52:06+01:00",
     "last_build_triggered_at": "2023-01-13T08:52:12.202176952Z",
     "status": "Onboarded"
+  },
+  {
+    "unique_id": "",
+    "repo_name": "martin-husar/Hackathon",
+    "installation_id": 33095972,
+    "is_fleet": true,
+    "build_count": 0,
+    "created_at": "2023-01-13T09:52:12+01:00",
+    "status": "Error",
+    "error_message": "Error onboarding agent: unique ID is empty. Please change the agent.json file in your repository."
   }
 ]
