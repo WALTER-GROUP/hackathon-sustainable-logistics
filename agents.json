@@ -8,5 +8,15 @@
     "created_at": "2022-11-18T07:51:41Z",
     "last_build_triggered_at": "2023-01-13T06:31:41.142251848Z",
     "status": "Onboarded"
+  },
+  {
+    "unique_id": "seb-csharp",
+    "repo_name": "seburgi/csharp-agent",
+    "installation_id": 33093030,
+    "is_fleet": true,
+    "build_count": 1,
+    "created_at": "2023-01-13T07:44:27+01:00",
+    "last_build_triggered_at": "2023-01-13T06:44:30.365712427Z",
+    "status": "Onboarded"
   }
 ]
