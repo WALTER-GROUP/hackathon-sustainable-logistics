@@ -73,13 +73,13 @@
     "status": "Onboarded"
   },
   {
-    "unique_id": "🖳⇄⛟",
+    "unique_id": "Dijks-Truck",
     "repo_name": "martin-husar/Hackathon",
     "installation_id": 33095972,
     "is_fleet": false,
     "build_count": 0,
     "created_at": "2023-01-13T09:52:12+01:00",
-    "updated_at": "2023-01-13T08:53:14.389268708Z",
+    "updated_at": "2023-01-13T08:54:33.34671194Z",
     "status": "Error",
     "error_message": "Error onboarding agent: unexpected unique ID format. Please use only lowercase letters, numbers and dashes. The unique ID must not start or end with a dash. Please change the agent.json file in your repository."
   },
