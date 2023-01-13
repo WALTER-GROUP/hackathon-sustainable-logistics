@@ -175,5 +175,15 @@
     "created_at": "2023-01-13T10:28:18+01:00",
     "last_build_triggered_at": "2023-01-13T09:28:23.366954636Z",
     "status": "Onboarded"
+  },
+  {
+    "unique_id": "",
+    "repo_name": "amalic-wg/hackathon_java_1",
+    "installation_id": 33095973,
+    "is_fleet": true,
+    "build_count": 0,
+    "created_at": "2023-01-13T09:52:14+01:00",
+    "status": "Error",
+    "error_message": "Error onboarding agent: unique ID is empty. Please change the agent.json file in your repository."
   }
 ]
