@@ -154,9 +154,9 @@
     "repo_name": "wltmlx/hackerthon",
     "installation_id": 33096207,
     "is_fleet": true,
-    "build_count": 1,
+    "build_count": 2,
     "created_at": "2023-01-13T09:02:07Z",
-    "last_build_triggered_at": "2023-01-13T14:22:56.17396971Z",
+    "last_build_triggered_at": "2023-01-13T14:31:33.119931411Z",
     "status": "Onboarded"
   },
   {
