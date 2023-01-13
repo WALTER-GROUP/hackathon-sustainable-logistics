@@ -74,15 +74,15 @@
     "status": "Onboarded"
   },
   {
-    "unique_id": "at_hackers",
+    "unique_id": "musketeers",
     "repo_name": "krflorian/walter_hackathon_2023",
     "installation_id": 33095989,
     "is_fleet": true,
-    "build_count": 0,
+    "build_count": 1,
     "created_at": "2023-01-13T09:52:46+01:00",
-    "updated_at": "2023-01-13T08:56:18.830535763Z",
-    "status": "Error",
-    "error_message": "Error onboarding agent: unexpected unique ID format. Please use only lowercase letters, numbers and dashes. The unique ID must not start or end with a dash. Please change the agent.json file in your repository."
+    "updated_at": "2023-01-13T09:15:06.691367337Z",
+    "last_build_triggered_at": "2023-01-13T09:15:10.677923182Z",
+    "status": "Onboarded"
   },
   {
     "unique_id": "wgs-sustainable-vibe",
