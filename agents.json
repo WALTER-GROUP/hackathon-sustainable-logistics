@@ -57,10 +57,10 @@
     "repo_name": "martin-husar/Hackathon",
     "installation_id": 33095972,
     "is_fleet": false,
-    "build_count": 11,
+    "build_count": 12,
     "created_at": "2023-01-13T09:52:12+01:00",
     "updated_at": "2023-01-13T08:55:10.657319543Z",
-    "last_build_triggered_at": "2023-01-13T11:31:41.134550478Z",
+    "last_build_triggered_at": "2023-01-13T11:46:16.734916336Z",
     "status": "Onboarded"
   },
   {
