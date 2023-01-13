@@ -36,10 +36,10 @@
     "repo_name": "borkovec/hackathon-2023",
     "installation_id": 33095954,
     "is_fleet": true,
-    "build_count": 24,
+    "build_count": 25,
     "created_at": "2023-01-13T09:52:00+01:00",
     "updated_at": "2023-01-13T08:54:02.975444204Z",
-    "last_build_triggered_at": "2023-01-13T13:39:21.14487318Z",
+    "last_build_triggered_at": "2023-01-13T13:46:22.208992099Z",
     "status": "Onboarded"
   },
   {
