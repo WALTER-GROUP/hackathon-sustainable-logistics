@@ -181,10 +181,10 @@
     "repo_name": "amalic-wg/hackathon_java_1",
     "installation_id": 33095973,
     "is_fleet": true,
-    "build_count": 1,
+    "build_count": 2,
     "created_at": "2023-01-13T09:52:14+01:00",
     "updated_at": "2023-01-13T10:19:04.585848588Z",
-    "last_build_triggered_at": "2023-01-13T10:19:08.550420923Z",
+    "last_build_triggered_at": "2023-01-13T11:00:26.328958906Z",
     "status": "Onboarded"
   }
 ]
