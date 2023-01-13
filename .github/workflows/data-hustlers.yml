@@ -1,0 +1,39 @@
+name: "Team 'data-hustlers' Agent Builder"
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-agent:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Github repository
+        uses: actions/checkout@v3
+        with:
+          repository: amalic-wg/hackathon_sustainable_logistics_agent_1
+          token: ${{ secrets.TEAM_DATA_HUSTLERS }}
+          path: proj
+      - name: Setup Google Cloud access
+        uses: google-github-actions/setup-gcloud@v0
+        with:
+          service_account_key: ${{ secrets.GCR_KEY }}
+      - name: Authenticate Docker
+        run: gcloud auth configure-docker
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v2
+        with:
+          context: proj
+          push: true
+          tags: gcr.io/walter-group-hackathon/data-hustlers:latest
+      - name: Report Status
+        uses: ravsamhq/notify-slack-action@v2
+        if: always()
+        with:
+          status: ${{ job.status }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          notification_title: "GitHub Actions: agent build failed"
+          message_format: "{emoji} Agent build for `data-hustlers` failed: <{run_url}|Check out details>"
+          footer: "<{run_url}|View Run>"
+          notify_when: "failure"
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
