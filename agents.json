@@ -3,11 +3,11 @@
     "unique_id": "curd-zoechmann",
     "repo_name": "zoechmann-curd/hackathon-agent",
     "installation_id": 33095734,
-    "is_fleet": true,
-    "build_count": 8,
+    "is_fleet": false,
+    "build_count": 9,
     "created_at": "2023-01-13T09:41:48+01:00",
-    "updated_at": "2023-01-13T08:43:50.044556152Z",
-    "last_build_triggered_at": "2023-01-13T11:11:00.66131712Z",
+    "updated_at": "2023-01-13T12:14:05.105048576Z",
+    "last_build_triggered_at": "2023-01-13T12:14:06.478702547Z",
     "status": "Onboarded"
   },
   {
