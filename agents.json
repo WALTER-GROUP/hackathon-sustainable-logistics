@@ -134,9 +134,9 @@
     "repo_name": "gregorsatzinger/walter-hackathon",
     "installation_id": 33096165,
     "is_fleet": true,
-    "build_count": 1,
+    "build_count": 2,
     "created_at": "2023-01-13T09:00:19Z",
-    "last_build_triggered_at": "2023-01-13T14:22:52.370670656Z",
+    "last_build_triggered_at": "2023-01-13T14:30:51.653005938Z",
     "status": "Onboarded"
   },
   {
