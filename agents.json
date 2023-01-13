@@ -161,9 +161,9 @@
     "repo_name": "isakcodes/walter-sim-cic",
     "installation_id": 33096537,
     "is_fleet": true,
-    "build_count": 9,
+    "build_count": 10,
     "created_at": "2023-01-13T10:14:43+01:00",
-    "last_build_triggered_at": "2023-01-13T11:17:30.635410191Z",
+    "last_build_triggered_at": "2023-01-13T12:36:55.942364319Z",
     "status": "Onboarded"
   },
   {
