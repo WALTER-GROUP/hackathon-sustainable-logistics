@@ -15,10 +15,10 @@
     "repo_name": "ThisIsANiceName/lkww-hackathon",
     "installation_id": 33095933,
     "is_fleet": true,
-    "build_count": 1,
+    "build_count": 2,
     "created_at": "2023-01-13T09:51:16+01:00",
     "updated_at": "2023-01-13T08:52:01.762052343Z",
-    "last_build_triggered_at": "2023-01-13T08:52:05.977754952Z",
+    "last_build_triggered_at": "2023-01-13T09:15:48.019267617Z",
     "status": "Onboarded"
   },
   {
