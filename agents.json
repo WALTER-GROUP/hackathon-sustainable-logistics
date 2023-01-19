@@ -6,7 +6,7 @@
     "is_fleet": false,
     "build_count": 1,
     "created_at": "2023-01-13T08:41:48Z",
-    "last_build_triggered_at": "2023-01-13T14:22:28.340796339Z",
+    "last_build_triggered_at": "2023-01-19T19:09:17.228144212Z",
     "status": "Onboarded"
   },
   {
@@ -14,9 +14,9 @@
     "repo_name": "zoechmann-curd/hackathon-agent-noseek",
     "installation_id": 33095734,
     "is_fleet": false,
-    "build_count": 2,
+    "build_count": 1,
     "created_at": "2023-01-13T08:41:48Z",
-    "last_build_triggered_at": "2023-01-13T14:35:38.92701885Z",
+    "last_build_triggered_at": "2023-01-19T19:09:18.559303939Z",
     "status": "Onboarded"
   },
   {
@@ -26,7 +26,7 @@
     "is_fleet": true,
     "build_count": 1,
     "created_at": "2023-01-13T08:41:48Z",
-    "last_build_triggered_at": "2023-01-13T14:22:31.289274357Z",
+    "last_build_triggered_at": "2023-01-19T19:09:19.95875544Z",
     "status": "Onboarded"
   },
   {
@@ -34,9 +34,9 @@
     "repo_name": "ThisIsANiceName/lkww-hackathon",
     "installation_id": 33095933,
     "is_fleet": true,
-    "build_count": 6,
+    "build_count": 1,
     "created_at": "2023-01-13T08:51:16Z",
-    "last_build_triggered_at": "2023-01-13T14:56:48.445494367Z",
+    "last_build_triggered_at": "2023-01-19T19:09:22.021805694Z",
     "status": "Onboarded"
   },
   {
@@ -44,9 +44,9 @@
     "repo_name": "pedroananias/team-hackathon",
     "installation_id": 33095950,
     "is_fleet": true,
-    "build_count": 6,
+    "build_count": 1,
     "created_at": "2023-01-13T08:51:49Z",
-    "last_build_triggered_at": "2023-01-13T15:07:04.378368251Z",
+    "last_build_triggered_at": "2023-01-19T19:09:24.062260246Z",
     "status": "Onboarded"
   },
   {
@@ -54,9 +54,9 @@
     "repo_name": "borkovec/hackathon-2023",
     "installation_id": 33095954,
     "is_fleet": true,
-    "build_count": 4,
+    "build_count": 1,
     "created_at": "2023-01-13T08:52:00Z",
-    "last_build_triggered_at": "2023-01-13T14:55:33.985444235Z",
+    "last_build_triggered_at": "2023-01-19T19:09:26.671473412Z",
     "status": "Onboarded"
   },
   {
@@ -64,9 +64,9 @@
     "repo_name": "lolokraus/walter-agent-evolit",
     "installation_id": 33095965,
     "is_fleet": true,
-    "build_count": 9,
+    "build_count": 1,
     "created_at": "2023-01-13T08:52:06Z",
-    "last_build_triggered_at": "2023-01-13T15:05:45.231358761Z",
+    "last_build_triggered_at": "2023-01-19T19:09:28.724093237Z",
     "status": "Onboarded"
   },
   {
@@ -74,9 +74,9 @@
     "repo_name": "amalic-wg/hackathon_java_1",
     "installation_id": 33095973,
     "is_fleet": true,
-    "build_count": 2,
+    "build_count": 1,
     "created_at": "2023-01-13T08:52:14Z",
-    "last_build_triggered_at": "2023-01-13T14:51:33.368954183Z",
+    "last_build_triggered_at": "2023-01-19T19:09:31.023070237Z",
     "status": "Onboarded"
   },
   {
@@ -84,9 +84,9 @@
     "repo_name": "amalic-wg/hackathon_sustainable_logistics_agent_1",
     "installation_id": 33095973,
     "is_fleet": true,
-    "build_count": 14,
+    "build_count": 1,
     "created_at": "2023-01-13T08:52:14Z",
-    "last_build_triggered_at": "2023-01-13T15:01:29.334708484Z",
+    "last_build_triggered_at": "2023-01-19T19:09:32.373374001Z",
     "status": "Onboarded"
   },
   {
@@ -94,9 +94,9 @@
     "repo_name": "krflorian/walter_hackathon_2023",
     "installation_id": 33095989,
     "is_fleet": true,
-    "build_count": 8,
+    "build_count": 1,
     "created_at": "2023-01-13T08:52:46Z",
-    "last_build_triggered_at": "2023-01-18T15:03:53.952099027Z",
+    "last_build_triggered_at": "2023-01-19T19:09:34.374419652Z",
     "status": "Onboarded"
   },
   {
@@ -104,9 +104,9 @@
     "repo_name": "mawiwolf/hackathon-sustainable-logistics-idev",
     "installation_id": 33096038,
     "is_fleet": true,
-    "build_count": 6,
+    "build_count": 1,
     "created_at": "2023-01-13T08:55:16Z",
-    "last_build_triggered_at": "2023-01-13T14:57:07.807761268Z",
+    "last_build_triggered_at": "2023-01-19T19:09:36.560706443Z",
     "status": "Onboarded"
   },
   {
@@ -114,9 +114,9 @@
     "repo_name": "SofiaMin/walter-hackathon",
     "installation_id": 33096161,
     "is_fleet": true,
-    "build_count": 5,
+    "build_count": 1,
     "created_at": "2023-01-13T09:00:14Z",
-    "last_build_triggered_at": "2023-01-13T15:00:28.199158481Z",
+    "last_build_triggered_at": "2023-01-19T19:09:38.571654064Z",
     "status": "Onboarded"
   },
   {
@@ -124,9 +124,9 @@
     "repo_name": "gregorsatzinger/walter-hackathon",
     "installation_id": 33096165,
     "is_fleet": true,
-    "build_count": 5,
+    "build_count": 1,
     "created_at": "2023-01-13T09:00:19Z",
-    "last_build_triggered_at": "2023-01-13T14:50:55.733592066Z",
+    "last_build_triggered_at": "2023-01-19T19:09:40.677827681Z",
     "status": "Onboarded"
   },
   {
@@ -134,9 +134,9 @@
     "repo_name": "deimelm/hackathon",
     "installation_id": 33096183,
     "is_fleet": true,
-    "build_count": 5,
+    "build_count": 1,
     "created_at": "2023-01-13T09:01:14Z",
-    "last_build_triggered_at": "2023-01-13T14:36:59.48472895Z",
+    "last_build_triggered_at": "2023-01-19T19:09:42.728126911Z",
     "status": "Onboarded"
   },
   {
@@ -144,9 +144,9 @@
     "repo_name": "wltmlx/hackerthon",
     "installation_id": 33096207,
     "is_fleet": true,
-    "build_count": 3,
+    "build_count": 1,
     "created_at": "2023-01-13T09:02:07Z",
-    "last_build_triggered_at": "2023-01-13T14:33:18.407393589Z",
+    "last_build_triggered_at": "2023-01-19T19:09:44.806786734Z",
     "status": "Onboarded"
   },
   {
@@ -154,9 +154,9 @@
     "repo_name": "Ghetto69/Spengergasse_Wof",
     "installation_id": 33096240,
     "is_fleet": true,
-    "build_count": 6,
+    "build_count": 1,
     "created_at": "2023-01-13T09:03:21Z",
-    "last_build_triggered_at": "2023-01-13T15:00:14.705340932Z",
+    "last_build_triggered_at": "2023-01-19T19:09:46.889928052Z",
     "status": "Onboarded"
   },
   {
@@ -164,9 +164,9 @@
     "repo_name": "Themsh76/hackathon-htl",
     "installation_id": 33096272,
     "is_fleet": true,
-    "build_count": 6,
+    "build_count": 1,
     "created_at": "2023-01-13T09:04:48Z",
-    "last_build_triggered_at": "2023-01-13T14:49:50.410578539Z",
+    "last_build_triggered_at": "2023-01-19T19:09:48.905418782Z",
     "status": "Onboarded"
   },
   {
@@ -174,9 +174,9 @@
     "repo_name": "isakcodes/walter-sim-cic",
     "installation_id": 33096537,
     "is_fleet": true,
-    "build_count": 4,
+    "build_count": 1,
     "created_at": "2023-01-13T09:14:43Z",
-    "last_build_triggered_at": "2023-01-13T15:23:29.490052152Z",
+    "last_build_triggered_at": "2023-01-19T19:09:50.941255853Z",
     "status": "Onboarded"
   },
   {
@@ -184,9 +184,9 @@
     "repo_name": "jesseVDwolf/LINKIT-WaltersGroup-Python-Agent",
     "installation_id": 33096903,
     "is_fleet": true,
-    "build_count": 4,
+    "build_count": 1,
     "created_at": "2023-01-13T09:28:18Z",
-    "last_build_triggered_at": "2023-01-13T15:06:16.904067923Z",
+    "last_build_triggered_at": "2023-01-19T19:09:52.903789306Z",
     "status": "Onboarded"
   }
 ]
