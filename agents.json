@@ -194,10 +194,10 @@
     "repo_name": "Avriox/hackerthon_v2",
     "installation_id": 33327423,
     "is_fleet": true,
-    "build_count": 2,
+    "build_count": 3,
     "created_at": "2023-01-20T09:18:30+01:00",
     "updated_at": "2023-01-20T08:19:34.653454523Z",
-    "last_build_triggered_at": "2023-01-20T08:29:18.256910398Z",
+    "last_build_triggered_at": "2023-01-20T08:43:45.691546648Z",
     "status": "Onboarded"
   }
 ]
