@@ -58,28 +58,15 @@ Afterwards, we simulate the passing of time via [discrete-event simulation](http
 
 The goal is to **observe, iterate and improve**.
 
-We have two sets of rules:
+We have **a set of efficiency rules** at work:
 
-- **Efficiency rules** - in effect from the start of the competition
-- **Sustainability rules** - come in effect in the second half of the Hackathon
-
-## Efficiency Rules
-
- These rules are in effect since the start of the game.
-
-- Your **truck gets money for delivering** cargo. Prices are market-driven. Certain cargo types tend to have better margins out-of-the-box.
-- You spend money on gas (fuel consumption uses COPERT formula for a loaded/empty truck and diesel price of `2.023`)
+- Your **truck gets money for delivering** cargo. Certain cargo types tend to have better margins out-of-the-box.
+- Cargo delivery prices are market-driven. If a cargo isn't picked up, price for its delivery will increase over the time.
+- You spend money on gas (fuel consumption uses COPERT formula for a loaded/empty truck and diesel price of `1.9l`)
 - **Every week, you pay fixed operational costs**. So standing idle and doing nothing is a loosing strategy. You need to hustle to keep.
 - If your balance is negative at the end of the week, the truck is bankrupt until the end of the simulation run.
 - Weekly revenue is taxed progressively.
-
-## Sustainability Rules
-
-These rules come into effect for the second part of the hackathon.
-
-- **CO2 emissions** (computed via COPER) have an additional associated cost (CO2 offset cost)
-- **Truck drivers get fatigued** over the time. Fatigue accumulates and increases the chance of road incidents. Incidents cause delay and trigger an immediate rest. Full 8-hour sleep is needed to eliminate fatigue.
-- **Locations have working hours**. If a truck arrives at a location outside of its working hours, it has to wait.
+- **CO2 emissions** (computed via COPERT) have an additional associated cost (CO2 offset cost)
 
 ## Trucks
 
@@ -114,23 +101,7 @@ Example:
 
 Hint: you can get time of the day by doing a modulo operation: `tod = time mod 24`
 
-
-## Resting time of truck drivers (Sustainability Only)
-
-When _Sustainability Rules_ are active, driver fatigue mechanics come into play. 
-
-Drivers can get tired over time. More time has passed since the last full rest (8 hours of undisturbed SLEEP), the higher the chance of road incidents during the journey. 
-
-Road incidents cause a delay and trigger an immediate `SLEEP 8` afterwards.
-
-## Working Hours (Sustainability Only)
-
-When _Sustainability Rules_ are in active, cargo delivery locations have working hours. If a truck arrives at such a location outside of the working hours, it will have to wait until it is allowed to unload its cargo.
-
-If waiting time is 8 hours or more, it counts as a full rest.
-
-
-## CO2 emissions (Sustainability Only)
+## CO2 emissions
 Driving emits CO2 which is calculated via a simplified COPERT4 formula (see also https://www.eea.europa.eu/data-and-maps/data/external/copert-4). The simulation tracks the emissions for all trucks on the map. Try to keep your emissions as low as possible, while maximizing your profit.
 
 CO2 emissions are counted as expensses, based on the CO2 offset cost per kg.
