@@ -2,12 +2,12 @@
   <a href="https://hackathon.walter-group.com">
     <img alt="WALTER GROUP Hackathon: Sustainable Logistics" src="images/header.svg" width="500px" >
   </a>
-  <h4 align="center">This is the central repository for participants of the <br><a href="https://hackathon.walter-group.com" target="_blank">WALTER GROUP Hackathon: Sustainable Logistics</a> which explains how to participate in the competition and links to all relevant resources like agent templates. The build status of participants agents can be seen in the <a href="https://github.com/WALTER-GROUP/hackathon-sustainable-logistics/actions">GitHub Action history</a> of this repository.</h4>
+  <h4 align="center">This is the central repository for participants of the <br><a href="https://hackathon.walter-group.com" target="_blank">WALTER GROUP Hackathon: Sustainable Logistics</a> which explains how to participate in the competition and links to all relevant resources like Replit agent templates.</h4>
 
   <p align="center">
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License"></img></a>
     <a href="https://www.walter-group.com"><img src="https://img.shields.io/badge/Organiser-WALTER%20GROUP-%2300529e" alt="Organiser WALTER GROUP"></img></a>
-    <a href="https://join.slack.com/t/waltergroup-hackathon/shared_invite/zt-1jdcaqm4z-cMDXcMYG6eHlJaTR5YH0zw"><img src="https://img.shields.io/badge/Slack-join%20chat-green" alt="Join Slack chat"></img></a>
+    <a href="https://join.slack.com/t/wg-hackathon-2024/shared_invite/zt-2ri6ti5h2-tmw7XY4CU7pdlx3jar6d0g"><img src="https://img.shields.io/badge/Slack-join%20chat-green" alt="Join Slack chat"></img></a>
   </p>
 </p>
 
@@ -50,9 +50,9 @@ Afterwards, we simulate the passing of time via [discrete-event simulation](http
 
 ![image-20220513090946445](images/image-20220513090946445.png)
 
-1. You code an agent that controls truck(s) and submit it into the competition.
-2. That agents gets packaged as a docker container
-3. Regularly (every 5-10 minutes) we pull all agents in and start a new simulation run.
+1. You code an agent that controls a truck.
+2. The agent is developed and executed on Replit, a web-based IDE in the cloud.
+3. Regularly (every 5 minutes) we start a new simulation run and send requests to all available agents.
 4. You can observe the real-time dashboards during the run. 
 5. You can also download full simulation trace immediately after the run ends
 
@@ -227,57 +227,39 @@ Winners are calculated by running the simulation 3 times (to reduce the role of 
 
 
 
-# Agent template repositories and competition build system
+# Replit agent templates
 
-**We recommend to perform the steps of this section at the very beginning of the Hackathon, just by using one of the supplied language templates and setting your team's agent unique ID in agent.json. After the agent build is setup you can iteratively improve the truck agents behavior.**
+**We recommend to perform the steps of this section at the very beginning of the Hackathon, just by using one of the supplied language templates and submitting your team's unique ID and Replit URL. After the agent is setup and you verified it is working as expected, you can iteratively improve the truck agents behavior.**
 
 **Only one member of your team needs to follow these instructions!**
 
-## 1. Create private repository from a template
+## 1. Create your own agent Repl from a template
 
-To get you started quickly, we created several template repositories for you. Depending on your language preference, click on one of the links below and then click the `Use this template` button to create a new **private** repository in your GitHub account with all the contents of the template. Make sure to make this new repository private, as otherwise all of your competitors will be able to see your code.
+To get you started quickly, we created several Replit templates for you. Depending on your language preference, click on one of the links below and then click the green `Use Template` button to create a new Repl. During that process you will likely have to sign up to Replit. No worries, a Replit account is for free and it includes a monthly quota of development time!
 
-- [C# agent template repository](https://github.com/WALTER-GROUP/hackathon-sustainable-logistics-agent-csharp)
-- [Java agent template repository](https://github.com/WALTER-GROUP/hackathon-sustainable-logistics-agent-java)
-- [Python agent template repository](https://github.com/WALTER-GROUP/hackathon-sustainable-logistics-agent-python)
-
-</br>
-<img src="images/use-as-template.jpeg" width="640"/>
-</br>
-
-**Optional step:** if you are working in a team and others want to contribute code as well, you can now add your colleagues as contributors to the repository. Click on the tab `Settings` and then on `Collaborators and teams` and add people on that page.
-
-## 2. Modify your agent.json file
-
-Clone the agent repository you created in the previous step and pick a unique ID for your team. Valid unique IDs consist of lower-case characters (`a-z`), numbers (`0-9`) and dashes (`-`). Dashes at the start, or end are not allowed.
-
-If you are participating alone set `is_fleet` to `false`. If you are participating as a team set it to `true`.
-
-```json
-    {
-      "unique_id": "walter-group",
-      "is_fleet": true
-    }
-```
-
-Commit and push your changes of the `agent.json` file.
-
-## 3. Install the Hackathon GitHub app
-
-Now install the GitHub app [WALTER GROUP Hackathon Onboarding](https://github.com/apps/walter-group-hackathon-onboarding) for the repository created in step 1). Please make sure to install the app **only for the single repository**, where your agent code resides. If you install it for all your repositories you would grant the app read access to all your private repos.
+- [C# agent repository](https://replit.com/@sburgstaller/WALTER-GROUP-Hackathon-Sustainable-Logistics-C-Agent?v=1#README.md)
+- [Java agent repository](https://replit.com/@sburgstaller/WALTER-GROUP-Hackathon-Sustainable-Logistics-Java-Agent?v=1#README.md)
+- [Python agent repository](https://replit.com/@f-krause/WALTER-GROUP-Hackathon-Sustainable-Logistics-Python?v=1#README.md)
 
 </br>
-<img src="images/install-app.jpeg" width="480"/>
+<img src="images/use-template.jpeg" width="640"/>
 </br>
 
-## 4. Verify it worked
+## 2. Verify it worked
 
-Within a few seconds you should see a new entry in the public [agents.json](https://github.com/WALTER-GROUP/hackathon-sustainable-logistics/blob/main/agents.json) file. There will also be a new [GitHub Actions workflow](https://github.com/WALTER-GROUP/hackathon-sustainable-logistics/actions) created for your agent, which will be immediately triggered, whenever you push code changes to your agent repository.
+Click the green "> Run" button and wait. During the first start, the Repl will restore all its dependencies and will perform a full rebuild of the agent. When the agent is started, you will see a new tab in your Replit window called `Webview`. That means that your agent is up and running and will be able to service requests from the hackathon framework.
 
-If you see your agent in the `agents.json` file and its status is `Onboarded`, your agent will be participating in one of the next simulation runs. You can now focus on writing your agent code. Good luck!
+</br>
+<img src="images/copy-url.jpeg" width="640"/>
+</br>
 
-<br/>
-<br/>
+Now we need to get the URL of your running Repl and submit it to the hackathon framework. Click on the Url of the Webview tab, or go to Networking in the left sidebar. Then click on the copy button for the Url.
+
+Now open this form and enter your URL and your teams unique ID. Valid unique IDs consist of lower-case characters (a-z), numbers (0-9) and dashes (-). Dashes at the start, or end are not allowed.
+
+**[IMPORTANT! SUBMIT team ID and Repl Url here](https://forms.gle/A6RFQg3qY1pnGAA7A)**
+
+**If you do not submit your agent information via the above form, we will also not be able to send requests to your agent.**
 
 # We are hiring
 
