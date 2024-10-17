@@ -256,6 +256,12 @@ Now open this form and enter your URL and your teams unique ID. Valid unique IDs
 
 Within a few minutes your agent should be displayed on the hackathon dashboard and you should see request logs appearing in your Replit console. That is the sign that everything is working as expected and now you can start to improve your agent code.
 
+# Support
+
+If you're onsite, Rinat, Felix, and Seb will be available to assist you throughout the day. Feel free to raise your hand or visit our desk if you need help.
+
+For remote participants, you can ask general questions in the public #questions-and-public-support channel, or create a private channel named after your unique team ID and invite the @support team. We'll do our best to help with any issues you encounter, but please note that we can only support teams working directly on Replit. If you're developing your agent locally and encounter compile issues, we may not have enough time to assist with those.
+
 # We are hiring
 
 ## The WALTER GROUP
