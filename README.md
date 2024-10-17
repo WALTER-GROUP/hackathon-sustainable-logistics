@@ -144,7 +144,7 @@ You can [download](data/map.json) the world map. It describes the road graph as 
 
 ## Simulation Traces
 
-Simulation traces could be downloaded from the [traces folder](https://traces.endpoints.walter-group-hackathon.cloud.goog). These are JSON files stored in [Chrome Tracing format](https://docs.google.com/document/d/1CvAClvFfyA5R-PhYUmn5OOQtYMH4h6I0nSsKchNAySU/preview).
+Simulation traces could be downloaded from the [traces folder](https://traces.endpoints.lkww-hackathon.cloud.goog). These are JSON files stored in [Chrome Tracing format](https://docs.google.com/document/d/1CvAClvFfyA5R-PhYUmn5OOQtYMH4h6I0nSsKchNAySU/preview).
 
 Note: Simulation traces that were published before the competition start - demonstrate the mechanics, but use a slightly different world. Keep that in mind, if you decide to analyse in advance.
 
@@ -210,7 +210,7 @@ We have  dashboards with real-time insight into the system across the simulation
 
 Each run takes 5-10 minutes, and you can see it as a separate peak on the charts.
 
-- [General dashboard](https://telemetry.endpoints.walter-group-hackathon.cloud.goog)
+- [General dashboard](https://telemetry.endpoints.lkww-hackathon.cloud.goog/d/external/hackathon?orgId=1&refresh=30s)
 
 ![image-20220512110929530](images/image-20220512110929530.png) 
 
