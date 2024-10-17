@@ -12,7 +12,7 @@
 </p>
 
 # Overview
-Experts in data science, machine learning and software development will work together to find efficient and sustainable logistics solutions for the EU at the WALTER GROUP Hackathon: Sustainable Logistics on 13 January 2023.
+Experts in data science, machine learning and software development will work together to find efficient and sustainable logistics solutions for the EU at the WALTER GROUP Hackathon: Sustainable Logistics on 17 October 2024.
 
 Freight transports, delivery routes and logistics systems are key drivers of the European economy. They allow countries to work together across borders, achieve better results together and find efficient and sustainable solutions for the future through cooperation and collaboration. WALTER GROUP aims to foster this cooperation and brings together experts, developers and scientists to demonstrate what we can achieve by joining forces.
 
@@ -32,7 +32,7 @@ Locations for producing and consuming goods are semi-deterministic and are not r
 
 The participants of the competition will get to program trucks which can load the cargo and deliver it.  **The goal is to make money by delivering the cargo**. 
 
-If you run out of money, your truck(s) are suspended for the current simulation run.
+If you run out of money, your truck is suspended for the current simulation run.
 
 This is very much like economic games you might have played in high school.
 
@@ -54,7 +54,7 @@ Afterwards, we simulate the passing of time via [discrete-event simulation](http
 2. The agent is developed and executed on Replit, a web-based IDE in the cloud.
 3. Regularly (every 5 minutes) we start a new simulation run and send requests to all available agents.
 4. You can observe the real-time dashboards during the run. 
-5. You can also download full simulation trace immediately after the run ends
+5. You can also download the full simulation traces immediately after the run ends.
 
 The goal is to **observe, iterate and improve**.
 
@@ -70,7 +70,7 @@ We have **a set of efficiency rules** at work:
 
 ## Trucks
 
-You control trucks by implementing a `decide` function. This function is called whenever the simulation doesn't have a plan for the truck (e.g. at the start of the simulation).
+You control a truck by implementing a `decide` function. This function is called whenever the simulation doesn't have a plan for the truck (e.g. at the start of the simulation).
 
 The simulation runtime will build a current world state for the truck (list of available cargo) and request a decision.
 
@@ -216,16 +216,7 @@ Each run takes 5-10 minutes, and you can see it as a separate peak on the charts
 
 # Competition Results
 
-We have 4 competition tracks:
-
-- Individual with efficiency rules
-- Team with efficiency rules
-- Individual with sustainability rules
-- Team with sustainability rules
-
-Winners are calculated by running the simulation 3 times (to reduce the role of luck) and picking the winner based on the average final balance across all 3 simulation runs.
-
-
+Winners are calculated by running the simulation 3 times (to reduce the role of luck) at the end of the day and picking the winner based on the average final balance across all 3 simulation runs.
 
 # Replit agent templates
 
@@ -245,7 +236,7 @@ To get you started quickly, we created several Replit templates for you. Dependi
 <img src="images/use-template.jpeg" width="640"/>
 </br>
 
-## 2. Verify it worked
+## 2. Start your agent and submit your team information
 
 Click the green "> Run" button and wait. During the first start, the Repl will restore all its dependencies and will perform a full rebuild of the agent. When the agent is started, you will see a new tab in your Replit window called `Webview`. That means that your agent is up and running and will be able to service requests from the hackathon framework.
 
@@ -260,6 +251,10 @@ Now open this form and enter your URL and your teams unique ID. Valid unique IDs
 **[IMPORTANT! SUBMIT team ID and Repl Url here](https://forms.gle/A6RFQg3qY1pnGAA7A)**
 
 **If you do not submit your agent information via the above form, we will also not be able to send requests to your agent.**
+
+## 3. Verify it worked
+
+Within a few minutes your agent should be displayed on the hackathon dashboard and you should see request logs appearing in your Replit console. That is the sign that everything is working as expected and now you can start to improve your agent code.
 
 # We are hiring
 
